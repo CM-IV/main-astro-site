@@ -4,14 +4,14 @@ import Headers from "../components/headers.astro";
 import Nav from "../components/nav.astro";
 
 const {content} = Astro.props;
-const {title, publishDate, author} = content;
+const {title, pubDate, author} = content;
 ---
 <html lang={ content.lang || 'en' }>
   <Headers title="OTS Blog Posts" />
   <main>
     <div class="container">
       <Nav />
-      <BlogPost title={title} author={author} publishDate={publishDate}>
+      <BlogPost title={title} author={author} pubDate={pubDate}>
         <slot />
       </BlogPost>
     </div>
