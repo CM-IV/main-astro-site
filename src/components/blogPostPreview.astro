@@ -7,5 +7,5 @@ const { post } = Astro.props;
 ---
 
 <ul>
-    <li>{post.frontmatter.publishDate} <a href={post.url} title="Read the posts.">{post.frontmatter.title}</a></li>
+    <li>{post.frontmatter.pubDate} -- <a href={post.url} title="Read the posts.">{post.frontmatter.title}</a></li>
 </ul>
