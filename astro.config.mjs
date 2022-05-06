@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   integrations: [],
-  site: import.meta.env.SITE
+  site: import.meta.site
 });
