@@ -49,12 +49,12 @@ container. You can use any ports you'd like here for your personal setup, but po
 
 Once that docker-compose file is created and you've pasted the above into it, run the `docker-compose up` command in order to start the container. Once it is started, you'll be able to see the web GUI on port 8081.
 
-![](https://ik.imagekit.io/xbkhabiqcy9/tr:w-1000,h-600/img/Screenshot_from_2021-12-06_09-42-50_wY5UjrNrX-.png?updatedAt=1638805381643)
+<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/Screenshot_from_2021-12-06_09-42-50_wY5UjrNrX-.png?updatedAt=1638805381643" />
 
 The default login information is `admin` for both the username and password, so once you login you want to change your password to something
 more secure. Once logged in, you can see all of your served files and folders based upon the path that you have configured within the `docker-compose.yml`.
 
-![](https://ik.imagekit.io/xbkhabiqcy9/tr:w-1000,h-600/img/Screenshot_from_2021-12-06_10-05-13_WMhXQcQ6i.png?updatedAt=1638806772228)
+<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/Screenshot_from_2021-12-06_10-05-13_WMhXQcQ6i.png?updatedAt=1638806772228" />
 
 In the top right corner of the page is the upload and download buttons. Provided that your linux user owns the file/folder that you want to
 upload, you can click on the upload button and find something on your local host machine to upload to your server. This can be easily used in conjunction with a self-hosted media player solution like [Jellyfin](https://jellyfin.org/), however that walkthrough will be for another post.

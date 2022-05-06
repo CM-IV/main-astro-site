@@ -35,3 +35,8 @@ body {
     min-height: 400px;
     padding: 100px;
 }
+
+.image {
+  width: 100%;
+  height: auto;
+}
