@@ -1,0 +1,14 @@
+---
+import Headers from "../components/headers.astro";
+import Footer from "../components/footer.astro";
+import Nav from "../components/nav.astro"; 
+---
+
+<Headers title="Occident Tech"/>
+<main>
+    <div class="container">
+        <Nav />
+        <slot />
+        <Footer />
+    </div>
+</main>
