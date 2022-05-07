@@ -15,7 +15,7 @@ body {
     --background-color: #222225;
     --page-width: 60em;
     --font-color: #e8e9ed;
-    /* --invert-font-color: #222225; */
+    --invert-font-color: #222225;
     --secondary-color: #a3abba;
     --tertiary-color: #a3abba;
     --primary-color: #15ff00;
@@ -39,4 +39,9 @@ body {
 .image {
   width: 100%;
   height: auto;
+}
+
+::selection, ::-moz-selection {
+  color: none;
+  background: none;
 }
