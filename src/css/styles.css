@@ -1,20 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+/* FONTS BEGIN */
+
+/* jetbrains-mono-100 - latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+       url('/fonts/jetbrains-mono-v12-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/jetbrains-mono-v12-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jetbrains-mono-regular - latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/jetbrains-mono-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/jetbrains-mono-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jetbrains-mono-600 - latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('/fonts/jetbrains-mono-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/jetbrains-mono-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jetbrains-mono-italic - latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/jetbrains-mono-v12-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/jetbrains-mono-v12-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jetbrains-mono-600italic - latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 600;
+  src: local(''),
+       url('/fonts/jetbrains-mono-v12-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/fonts/jetbrains-mono-v12-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* FONTS END */
+
 
 body {
-    /* margin: 0;
-    padding: 0;
-    background-color: #202731; */
     --global-font-size: 15px;
     --global-line-height: 1.4em;
     --global-space: 10px;
-    --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
-      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
-      serif;
-    --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
-      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
-      serif;
+    --font-stack: 'JetBrains Mono';
     --background-color: #222225;
     --page-width: 60em;
-    --font-color: #e8e9ed;
+    --font-color: #ffffff;
     --invert-font-color: #222225;
     --secondary-color: #a3abba;
     --tertiary-color: #a3abba;
@@ -39,9 +90,4 @@ body {
 .image {
   width: 100%;
   height: auto;
-}
-
-::selection, ::-moz-selection {
-  color: none;
-  background: none;
 }
