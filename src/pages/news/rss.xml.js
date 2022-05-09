@@ -12,7 +12,7 @@ export const get = () => rss({
     title: "Occident Tech Software News",
     description: "Latest web development news",
     site: import.meta.env.SITE,
-    stylesheet: '/rss/styles.xsl',
+    // stylesheet: '/rss/styles.xsl',
     items: sortedPosts.map(item => ({
         
         title: item.frontmatter.title,
