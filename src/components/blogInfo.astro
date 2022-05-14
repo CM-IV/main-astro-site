@@ -18,6 +18,21 @@ const { title, pubDate } = Astro.props;
         <Author name="CM-IV" />
       </header>
       <slot />
+      <div class="Giscus"></div>
     </div>
   </article>
 </section>
+<script src="https://giscus.app/client.js"
+        data-repo="CM-IV/main-astro-site"
+        data-repo-id="R_kgDOHVO21Q"
+        data-category="General"
+        data-category-id="DIC_kwDOHVO21c4CPF35"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
