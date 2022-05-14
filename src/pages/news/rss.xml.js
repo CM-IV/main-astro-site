@@ -11,7 +11,7 @@ const sortedPosts = posts.reverse();
 export const get = () => rss({
     title: "Occident Tech Software News",
     description: "Latest web development news",
-    site: import.meta.env.SITE,
+    site: import.meta.env.PUBLIC_SITE,
     // stylesheet: '/rss/styles.xsl',
     items: sortedPosts.map(item => ({
         
