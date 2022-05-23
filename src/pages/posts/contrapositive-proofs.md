@@ -9,4 +9,6 @@ layout: ../../layouts/blogPost.astro
 
 This is a paper explaining the logic behind contrapositive mathematical statements, displayed through an iframe pointing to a local pdf file.  GitHub markdown is no-bueno with latex for the most part, and Astro REALLY doesn't like it.
 
-<iframe src="/papers/contrapositives.pdf"></iframe>
+<object data="/papers/contrapositives.pdf" type="application/pdf">
+    <embed src="/papers/contrapositives.pdf" type="application/pdf" />
+</object>
