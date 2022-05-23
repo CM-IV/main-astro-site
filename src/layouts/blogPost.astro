@@ -6,14 +6,14 @@ import Footer from "../components/footer.astro";
 
 
 const {content} = Astro.props;
-const {title, pubDate, author} = content;
+const {title, description, pubDate, author} = content;
 ---
 <html lang={ content.lang || 'en' }>
   <Headers title="OTS Blog Posts" />
   <main>
     <div class="container">
       <Nav />
-      <BlogPost title={title} author={author} pubDate={pubDate}>
+      <BlogPost title={title} description={description} author={author} pubDate={pubDate}>
         <slot />
       </BlogPost>
       <Footer />
