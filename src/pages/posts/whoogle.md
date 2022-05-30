@@ -5,6 +5,7 @@ description: "Whoogle is a browser that you can spin up in a docker container to
 pubDate: "Thu, 5 May 2022"
 author: "CM-IV"
 layout: "../../layouts/blogPost.astro"
+draft: false
 ---
 
 According to their [GitHub page](https://github.com/benbusby/whoogle-search) Whoogle Search is a self-hosted, ad-free, and privacy respecting metasearch engine.  When Whoogle Search is used, you can still get Google search results as if you used their browser.  The neat aspect of it is that you are actually using a search engine without JavaScript tracking and cookies.

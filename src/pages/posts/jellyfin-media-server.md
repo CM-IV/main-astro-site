@@ -5,6 +5,7 @@ description: "Use Jellyfin to serve your media, essentially creating your own cl
 pubDate: "Fri, 10 Dec 2021"
 author: "CM-IV"
 layout: "../../layouts/blogPost.astro"
+draft: false
 ---
 
 [Jellyfin](https://jellyfin.org/) software media system hands you the reigns of your entertainment and media consumption.

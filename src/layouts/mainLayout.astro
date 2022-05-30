@@ -1,13 +1,18 @@
 ---
 import Headers from "../components/headers.astro";
 import Footer from "../components/footer.astro";
-import Nav from "../components/nav.astro"; 
+import Nav from "../components/nav.astro";
+
+const { pageTitle } = Astro.props;
 ---
 
 <Headers title="Occident Tech"/>
 <main>
     <div class="container">
         <Nav />
+        <div>
+            <h2>{pageTitle}</h2>
+        </div>
         <slot />
         <Footer />
     </div>

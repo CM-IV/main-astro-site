@@ -3,20 +3,17 @@
 import Layout from "../../layouts/mainLayout.astro";
 import PostPreviewList from '../../components/postPreviewList.astro';
 import Paginator from "../../components/paginator.astro";
+import Config from "../../main.config.cjs";
 
-// Data Fetching: List all Markdown posts in the repo.
-
-export async function getStaticPaths({paginate}) {
+export async function getStaticPaths({ paginate }) {
 
   const allPosts = await Astro.glob('../posts/*.md');
 
-  allPosts.sort((a, b) => (a.frontmatter.id) - (b.frontmatter.id));
-
-  const sortedPosts = allPosts.reverse();
+  const sortedPosts = allPosts.filter(f => f.frontmatter.draft != true).sort((a, b) => (b.frontmatter.id) - (a.frontmatter.id));
 
   return paginate(sortedPosts, {
 
-    pageSize: 8
+    pageSize: Config.pageSize
 
   })
 
@@ -25,10 +22,7 @@ export async function getStaticPaths({paginate}) {
 const { page } = Astro.props;
 ---
 <html lang="en">
-  <Layout>
-    <div>
-      <h2>Blog Posts</h2>
-    </div>
+  <Layout pageTitle="Blog Posts">
     <PostPreviewList posts={page.data}/>
     <Paginator page={page}/>
   </Layout>

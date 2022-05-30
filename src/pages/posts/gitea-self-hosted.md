@@ -5,6 +5,7 @@ description: "Gitea is a tiny alternative to GitHub written in Go, I'll show you
 pubDate: "Wed, 11 May 2022"
 author: "CM-IV"
 layout: "../../layouts/blogPost.astro"
+draft: false
 ---
 
 [Gitea](https://gitea.io/en-us/) is called "Git with a cup of tea", since it is written in Go, lightweight, and fast.  It can run anywhere the code can be compiled for, in our case though it can run wherever a Docker container can be run.

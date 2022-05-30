@@ -5,6 +5,7 @@ description: "Demonstrating a Python Flask API with CRUD functionality."
 pubDate: "Mon, 15 Nov 2021"
 author: "CM-IV"
 layout: "../../layouts/blogPost.astro"
+draft: false
 ---
 
 This isn't my first rodeo when it comes to REST API creation as I've made

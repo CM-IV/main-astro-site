@@ -5,6 +5,7 @@ description: "I'll post some pictures here to kick off this website."
 pubDate: "Sat, 06 Nov 2021"
 author: "CM-IV"
 layout: "../../layouts/blogPost.astro"
+draft: false
 ---
 
 This is the first post on the website built with [Astro](https://astro.build). I recently discovered the static site generator a few days ago, and I have decided to ditch Gatsby for Astro instead. Astro tries to keep JavaScript off of the built website that is hosted and shown to the public internet. This keeps the website speed insanely quick with minimal JavaScript needed. You can also use your favorite JavaScript Framework in its development before deployment to speed up the process. I usually go with the [Preact](https://preactjs.com) web framework, however with this website I have decided to not use a framework at all.

@@ -6,6 +6,7 @@ to learn more."
 pubDate: "Mon, 6 Dec 2021"
 author: "CM-IV"
 layout: "../../layouts/blogPost.astro"
+draft: false
 ---
 
 If you've got a home server or homelab running linux headlessly, you may want to have a simple web user interface to

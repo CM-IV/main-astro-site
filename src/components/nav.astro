@@ -1,8 +1,14 @@
+---
+import Config from "../main.config.cjs";
+
+const pageTitle = Config.siteTitle;
+---
+
 <div class="terminal-nav">
   <header class="terminal-logo">
       <div class="logo terminal-prompt">
           <a href="/" class="no-style">
-              Occident Tech Software
+              {pageTitle}
           </a>
       </div>
   </header>
@@ -11,6 +17,12 @@
       <li property="itemListElement" typeof="ListItem">
         <a href="/news" property="item" typeof="WebPage" class="menu-item">
           <span property="name">Posts</span>
+        </a>
+        <meta property="position" content="1">
+      </li>
+      <li property="itemListElement" typeof="ListItem">
+        <a href="/archive" property="item" typeof="WebPage" class="menu-item">
+          <span property="name">Archives</span>
         </a>
         <meta property="position" content="1">
       </li>
