@@ -1,8 +1,7 @@
 ---
 id: 3
 title: "Self hosting a file browser and manager."
-description: "Use File-Browser software to self host and manage files on headless Linux servers.  Follow the link in the title
-to learn more."
+description: "Use File-Browser software to self host and manage files on headless Linux servers.  Follow the link in the title to learn more."
 pubDate: "Mon, 6 Dec 2021"
 author: "CM-IV"
 layout: "../../layouts/blogPost.astro"
