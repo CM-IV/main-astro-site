@@ -1,5 +1,4 @@
 ---
-id: 5
 title: "Ditch big tech  browsers, self-host Whoogle instead!"
 description: "Whoogle is a browser that you can spin up in a docker container to run from your own on-prem hardware."
 pubDate: "Thu, 5 May 2022"

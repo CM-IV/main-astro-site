@@ -1,5 +1,4 @@
 ---
-id: 4
 title: "Learn how to self-host a media center with Jellyfin."
 description: "Use Jellyfin to serve your media, essentially creating your own cloud.  Click the link to learn more."
 pubDate: "Fri, 10 Dec 2021"

@@ -1,5 +1,4 @@
 ---
-id: 7
 title: Contrapositive Proof Presentation with LaTeX
 description: A paper on contrapostive proofs within discrete mathematics.
 pubDate: Mon, 23 May 2022

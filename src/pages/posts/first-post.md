@@ -1,5 +1,4 @@
 ---
-id: 1
 title: "Hello Astro!"
 description: "I'll post some pictures here to kick off this website."
 pubDate: "Sat, 06 Nov 2021"

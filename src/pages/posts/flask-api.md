@@ -1,5 +1,4 @@
 ---
-id: 2
 title: "Flask API for post data."
 description: "Demonstrating a Python Flask API with CRUD functionality."
 pubDate: "Mon, 15 Nov 2021"

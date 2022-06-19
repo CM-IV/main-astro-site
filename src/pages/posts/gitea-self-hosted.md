@@ -1,5 +1,4 @@
 ---
-id: 6
 title: "Locally host your own code repositories with lightweight Gitea"
 description: "Gitea is a tiny alternative to GitHub written in Go, I'll show you how to use it."
 pubDate: "Wed, 11 May 2022"
