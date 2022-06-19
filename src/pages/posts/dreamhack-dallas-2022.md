@@ -4,7 +4,7 @@ title: DreamHack Dallas 2022
 description: Insight into my experience at DreamHack 2022 in Dallas, Texas.
 draft: false
 author: CM-IV
-pubDate: 2022-06-04T02:51:18.502Z
+pubDate: Sun, 19 June 2022
 ---
 **Day 1**
 
