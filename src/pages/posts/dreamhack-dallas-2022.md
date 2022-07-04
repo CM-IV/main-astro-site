@@ -1,4 +1,6 @@
 ---
+setup: |
+  import { Image } from '@astrojs/image/components'
 layout: ../../layouts/blogPost.astro
 title: DreamHack Dallas 2022
 description: Insight into my experience at DreamHack 2022 in Dallas, Texas.
@@ -18,11 +20,11 @@ This proved to be a busy day, starting off with a delicious breakfast meal and c
 
 I was able to meet some awesome people cosplaying their favorite characters.  Here are some of the photos I was able to take:
 
-<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/IMG_20220604_171802-min_CiPPtFfF-.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655666395031" alt="Cosplayer photo 1" />
+<Image class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/IMG_20220604_171802-min_CiPPtFfF-.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655666395031" width={860} height={392} alt="Cosplayer photo 1" />
 
-<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/IMG_20220604_151127-min_ihEIeeubQ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655666395259" alt="Cosplayer photo 2" />
+<Image class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/IMG_20220604_151127-min_ihEIeeubQ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655666395259" width={860} height={392} alt="Cosplayer photo 2" />
 
-<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/IMG_20220604_142939-min_Pg4oALlEU.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655666395428" alt="Cosplayer photo 3" />
+<Image class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/IMG_20220604_142939-min_Pg4oALlEU.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1655666395428" width={860} height={392} alt="Cosplayer photo 3" />
 
 I was able to catch the Cloud9 and Faze Clan game that evening inside of the main theatre hall next to the expo hall.  The atmosphere was absolutely breath taking with the crowd going wild and starting various chants.  It felt like I was only a part of the awesome CS-GO community and I am glad I could see all of this live!
 

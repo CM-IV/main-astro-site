@@ -1,4 +1,6 @@
 ---
+setup: |
+  import { Image } from '@astrojs/image/components'
 title: "Self hosting a file browser and manager."
 description: "Use File-Browser software to self host and manage files on headless Linux servers.  Follow the link in the title to learn more."
 pubDate: "Mon, 6 Dec 2021"
@@ -48,12 +50,12 @@ container. You can use any ports you'd like here for your personal setup, but po
 
 Once that docker-compose file is created and you've pasted the above into it, run the `docker-compose up` command in order to start the container. Once it is started, you'll be able to see the web GUI on port 8081.
 
-<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/Screenshot_from_2021-12-06_09-42-50_wY5UjrNrX-.png?updatedAt=1638805381643" />
+<Image class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/Screenshot_from_2021-12-06_09-42-50_wY5UjrNrX-.png?updatedAt=1638805381643" width={860} height={392} />
 
 The default login information is `admin` for both the username and password, so once you login you want to change your password to something
 more secure. Once logged in, you can see all of your served files and folders based upon the path that you have configured within the `docker-compose.yml`.
 
-<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/Screenshot_from_2021-12-06_10-05-13_WMhXQcQ6i.png?updatedAt=1638806772228" />
+<Image class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/Screenshot_from_2021-12-06_10-05-13_WMhXQcQ6i.png?updatedAt=1638806772228" width={860} height={392} />
 
 In the top right corner of the page is the upload and download buttons. Provided that your linux user owns the file/folder that you want to
 upload, you can click on the upload button and find something on your local host machine to upload to your server. This can be easily used in conjunction with a self-hosted media player solution like [Jellyfin](https://jellyfin.org/), however that walkthrough will be for another post.

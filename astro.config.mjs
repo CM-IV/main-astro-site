@@ -1,9 +1,10 @@
 import { defineConfig } from 'astro/config';
+import image from '@astrojs/image';
 
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [],
+  integrations: [image()],
   site: import.meta.site,
   markdown: {
     remarkPlugins: [

@@ -1,4 +1,6 @@
 ---
+setup: |
+  import { Image } from '@astrojs/image/components'
 title: "Ditch big tech  browsers, self-host Whoogle instead!"
 description: "Whoogle is a browser that you can spin up in a docker container to run from your own on-prem hardware."
 pubDate: "Thu, 5 May 2022"
@@ -28,10 +30,10 @@ services:
 
 This is a simpler version of the docker-compose file that is listed in the repo, but this is all you need for the main websearch functionality.  I will also show you how to set Whoogle Search as the default search engine in the Firefox browser.  Once the docker container is up and runnning, you will see this page:
 
-<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/screen1_Rh72vadpii.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1651842962323" alt="Whoogle Search Image" />
+<Image class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/screen1_Rh72vadpii.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1651842962323" width={860} height={392} alt="Whoogle Search Image" />
 
 In order to add Whoogle Search to the list of search engines to add in the settings, you need to click on the URL search bar and you will see a magnification glass icon.
 
-<img src="https://ik.imagekit.io/xbkhabiqcy9/img/screen2_gK9Woxan-.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1651842962398" alt="Whoogle Search Image 2" />
+<Image src="https://ik.imagekit.io/xbkhabiqcy9/img/screen2_gK9Woxan-.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1651842962398" width={860} height={392} alt="Whoogle Search Image 2" />
 
 Once you click on that icon, you can go into the Firefox search settings and add Whoogle as the default search engine.
