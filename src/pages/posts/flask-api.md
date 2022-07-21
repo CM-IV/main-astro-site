@@ -27,7 +27,7 @@ it can be deactivated by using the `exit` command.
 Your generated Pipfile will be within the root directory of the project
 and the file should look like this after everything is installed:
 
-```txt
+```python
 [[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true

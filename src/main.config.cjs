@@ -7,9 +7,9 @@ export default {
       github: "CM-IV",
       discordServer: "erE3jrtpTb",
       ua_little_rock: "https://catalog.ualr.edu/preview_program.php?catoid=20&poid=5361&returnto=2423",
-      email: "chuck@civdev.xyz"
+      email: "chuck[at]civdev[dot]xyz"
     },
-    pageSize: 6,
+    pageSize: 8,
     i18n: {
       search: {
         placeholder: "Search post title and description...",
