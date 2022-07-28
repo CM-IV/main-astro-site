@@ -1,6 +1,7 @@
 # Welcome to [Astro](https://astro.build)
 
 
+
 ## 🚀 Project Structure
 
 Here's a rough outline of the directory structure.
