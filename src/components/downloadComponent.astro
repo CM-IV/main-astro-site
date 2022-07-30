@@ -1,14 +1,34 @@
 ---
-const request = await fetch("https://api.anonfiles.com/v2/file/36S1rf1eyd/info");
-const response = await request.json();
+const linuxRequest = await fetch("https://api.anonfiles.com/v2/file/36S1rf1eyd/info");
+const winRequest = await fetch("https://api.anonfiles.com/v2/file/gek7zf11ya/info")
+const linuxResponse = await linuxRequest.json();
+const winResponse = await winRequest.json();
 
-const file_url = response.data.file.url.full;
+const linuxFileUrl = linuxResponse.data.file.url.full;
+const winFileUrl = winResponse.data.file.url.full;
 ---
-<strong><p>Linux Web Image Optimizer v0.1.1</p></strong>
-<p>
-    <a href={file_url}>File Download</a>
-</p>
-<p>
-    <a href="/256x256.png" download>Icon Download</a>
-</p>
-<p>AppImage SHA512: 1c33af28a42e133373cfe03b80161d5b9107ec18395864a0789a6e58bcb93e5608c02e2dbc4605a470ad3442e57dd64270aa74ce5780f98d28d06dd9481d6188</p>
+<section>
+    <strong><p>Web Image Optimizer</p></strong>
+    <div class="flex-container">
+        <div>
+            <p>Linux</p>
+            <p>
+                <a href={linuxFileUrl}>AppImage Download</a>
+            </p>
+            <p>
+                <a href="/256x256.png" download>Icon Download</a>
+            </p>
+        </div>
+        <div>
+            <p>Windows</p>
+            <p>
+                <a href={winFileUrl}>Installer Download (.exe)</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr />
+
+<p>AppImage sha512sum: e698e1bca94f98c17ee710be63b75b6f597f5763762c67c2d47ad16059c4f5c5057b7fb9852ccc3b543d5b88c59faab3217614595efeb2947b60e9d7acdb5e09</p>
+<p>Win Installer sha512sum: ae144f79465b38faca6dc0fd603ff0cbe1fcf3db58e1b26079e5aaff5894e58ad575db4e5ff4e52214fbf4c0beacac6e34faa14e1a9758e13ba49a123b7f3a75</p>
