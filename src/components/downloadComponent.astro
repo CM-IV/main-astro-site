@@ -11,24 +11,29 @@ const winFileUrl = winResponse.data.file.url.full;
     <strong><p>Web Image Optimizer</p></strong>
     <div class="flex-container">
         <div>
-            <p>Linux</p>
-            <p>
-                <a href={linuxFileUrl}>AppImage Download</a>
-            </p>
-            <p>
-                <a href="/256x256.png" download>Icon Download</a>
-            </p>
+            <div class="terminal-card">
+                <header>Linux</header>
+                <div id="links">
+                    <a  href={linuxFileUrl}>AppImage Download</a>
+                </div>
+                <div id="links">
+                    <a href="/256x256.png" download>Icon Download</a>
+                </div>
+                <div id="links">
+                    <a href="/linuxChecksum/sha512sum.txt" download>sha512sum</a>
+                </div>
+            </div>
         </div>
         <div>
-            <p>Windows</p>
-            <p>
-                <a href={winFileUrl}>Installer Download (.exe)</a>
-            </p>
+            <div class="terminal-card">
+                <header>Windows</header>
+                <div id="links">
+                    <a href={winFileUrl}>Installer Download (.exe)</a>
+                </div>
+                <div id="links">
+                    <a href="/winChecksum/sha512sum.txt" download>sha512sum</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-
-<hr />
-
-<p>AppImage sha512sum: e698e1bca94f98c17ee710be63b75b6f597f5763762c67c2d47ad16059c4f5c5057b7fb9852ccc3b543d5b88c59faab3217614595efeb2947b60e9d7acdb5e09</p>
-<p>Win Installer sha512sum: ae144f79465b38faca6dc0fd603ff0cbe1fcf3db58e1b26079e5aaff5894e58ad575db4e5ff4e52214fbf4c0beacac6e34faa14e1a9758e13ba49a123b7f3a75</p>

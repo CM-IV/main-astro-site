@@ -101,3 +101,9 @@
   width: 100px;
   margin: 10px;
 }
+
+#links {
+  padding: 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
