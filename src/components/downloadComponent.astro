@@ -1,6 +1,8 @@
 ---
-const linuxRequest = await fetch("https://api.anonfiles.com/v2/file/36S1rf1eyd/info");
-const winRequest = await fetch("https://api.anonfiles.com/v2/file/gek7zf11ya/info")
+import Config from "../main.config.cjs";
+
+const linuxRequest = await fetch(Config.socialMedia.linuxFileUrl);
+const winRequest = await fetch(Config.socialMedia.winFileUrl);
 const linuxResponse = await linuxRequest.json();
 const winResponse = await winRequest.json();
 
