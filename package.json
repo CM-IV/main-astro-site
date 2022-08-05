@@ -9,10 +9,12 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.2.0",
-    "@astrojs/rss": "^0.2.2",
-    "astro": "^1.0.0-rc.1",
     "rehype-katex": "^6.0.2",
     "remark-math": "^5.1.1"
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.3.1",
+    "@astrojs/rss": "^0.2.2",
+    "astro": "^1.0.0-rc.6"
   }
 }

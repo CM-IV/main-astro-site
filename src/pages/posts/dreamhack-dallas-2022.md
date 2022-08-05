@@ -1,6 +1,5 @@
 ---
-setup: |
-  import { Image } from '@astrojs/image/components'
+setup: import { Image } from '@astrojs/image/components'
 layout: ../../layouts/blogPost.astro
 title: DreamHack Dallas 2022
 description: Insight into my experience at DreamHack 2022 in Dallas, Texas.

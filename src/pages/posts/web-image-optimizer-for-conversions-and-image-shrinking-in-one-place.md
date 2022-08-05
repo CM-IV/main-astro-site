@@ -1,4 +1,6 @@
 ---
+setup: |
+  import { Image } from '@astrojs/image/components'
 layout: ../../layouts/blogPost.astro
 title: Web Image Optimizer for conversions and image shrinking in one place
 description: >-
