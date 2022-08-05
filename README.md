@@ -1,4 +1,5 @@
 # Welcome to [Astro](https://astro.build)
+## Release v1.0 Candidate!
 
 
 
