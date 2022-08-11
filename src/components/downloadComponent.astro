@@ -1,13 +1,8 @@
 ---
 import Config from "../main.config.cjs";
 
-const linuxRequest = await fetch(Config.socialMedia.linuxFileUrl);
-const winRequest = await fetch(Config.socialMedia.winFileUrl);
-const linuxResponse = await linuxRequest.json();
-const winResponse = await winRequest.json();
-
-const linuxFileUrl = linuxResponse.data.file.url.full;
-const winFileUrl = winResponse.data.file.url.full;
+const linuxFileUrl = Config.socialMedia.linuxFileUrl
+const winFileUrl = Config.socialMedia.winFileUrl;
 ---
 <section>
     <strong><p>Web Image Optimizer</p></strong>
