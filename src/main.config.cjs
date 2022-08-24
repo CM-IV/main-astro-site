@@ -1,7 +1,7 @@
 export default {
-    siteTitle: "Occident Tech Software",
+    siteTitle: "Doctrina de Hersperida",
     siteDescription: "My Projects and Thoughts",
-    footer: "© Occident Software",
+    footer: "© Dreamland Software",
     dateFormat: "dd.MM.yyyy HH:mm",
     socialMedia: {
       github: "CM-IV",
