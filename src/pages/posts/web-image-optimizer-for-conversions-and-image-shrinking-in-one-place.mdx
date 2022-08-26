@@ -1,6 +1,4 @@
 ---
-setup: |
-  import { Image } from '@astrojs/image/components'
 layout: ../../layouts/blogPost.astro
 title: Web Image Optimizer for conversions and image shrinking in one place
 description: >-
@@ -14,6 +12,8 @@ draft: false
 author: CM-IV
 pubDate: Fri, 5 Aug 2022
 ---
+import { Image } from '@astrojs/image/components';
+
 So I got tired of having to visit separate websites whenever I wanted to convert my images into WebP format and optimize them into smaller sizes.  I started to look into ElectronJS for making a desktop app that would tackle this problem for me.
 
 At the time I was already familiar with using ViteJS in my web stack tool-box, so I searched through GitHub to see if there was a way to use it on the frontend of an ElectronJS application.  I love using ViteJS during development since it greatly speeds things up for me, not to mention CRA is over 5 years old at this point.

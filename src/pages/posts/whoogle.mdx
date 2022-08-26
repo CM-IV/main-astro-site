@@ -9,6 +9,8 @@ layout: "../../layouts/blogPost.astro"
 draft: false
 ---
 
+import { Image } from '@astrojs/image/components';
+
 According to their [GitHub page](https://github.com/benbusby/whoogle-search) Whoogle Search is a self-hosted, ad-free, and privacy respecting metasearch engine.  When Whoogle Search is used, you can still get Google search results as if you used their browser.  The neat aspect of it is that you are actually using a search engine without JavaScript tracking and cookies.
 
 It is simple to set up and get running, and I will demonstrate this by running Whoogle with Docker.  There is a docker-compose file within their code repository, I will use it for this quick demo.
