@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/image': ^0.3.6
   '@astrojs/mdx': ^0.10.2
   '@astrojs/rss': ^1.0.0
-  astro: ^1.1.0
+  astro: ^1.1.1
   rehype-katex: ^6.0.2
   remark-math: ^5.1.1
 
@@ -12,7 +12,7 @@ devDependencies:
   '@astrojs/image': 0.3.6
   '@astrojs/mdx': 0.10.2
   '@astrojs/rss': 1.0.0
-  astro: 1.1.0
+  astro: 1.1.1
   rehype-katex: 6.0.2
   remark-math: 5.1.1
 
@@ -713,8 +713,8 @@ packages:
     hasBin: true
     dev: true
 
-  /astro/1.1.0:
-    resolution: {integrity: sha512-Bi8vxRMEnXei78XvegprNXFETFS9t5/yu514ACpLD8Fx3iGU74rH3zpyxzVpkNED3Dt1lx2/QfVyjEfj6DJ1ZA==}
+  /astro/1.1.1:
+    resolution: {integrity: sha512-FTjjivWeJizYLidzBgiAAXzILptvT6ssvWodzSwT1mYm9kWiua2kzMk5r6E9KqB+okV4Z/OryxdhWJwmLD0G7g==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -832,8 +832,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001383
-      electron-to-chromium: 1.4.232
+      caniuse-lite: 1.0.30001384
+      electron-to-chromium: 1.4.233
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
@@ -857,8 +857,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001383:
-    resolution: {integrity: sha512-swMpEoTp5vDoGBZsYZX7L7nXHe6dsHxi9o6/LKf/f0LukVtnrxly5GVb/fWdCDTqi/yw6Km6tiJ0pmBacm0gbg==}
+  /caniuse-lite/1.0.30001384:
+    resolution: {integrity: sha512-BBWt57kqWbc0GYZXb47wTXpmAgqr5LSibPzNjk/AWMdmJMQhLqOl3c/Kd4OAU/tu4NLfYkMx8Tlq3RVBkOBolQ==}
     dev: true
 
   /ccount/2.0.1:
@@ -1076,8 +1076,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium/1.4.232:
-    resolution: {integrity: sha512-nd+FW8xHjM+PxNWG44nKnwHaBDdVpJUZuI2sS2JJPt/QpdombnmoCRWEEQNnzaktdIQhsNWdD+dlqxwO8Bn99g==}
+  /electron-to-chromium/1.4.233:
+    resolution: {integrity: sha512-ejwIKXTg1wqbmkcRJh9Ur3hFGHFDZDw1POzdsVrB2WZjgRuRMHIQQKNpe64N/qh3ZtH2otEoRoS+s6arAAuAAw==}
     dev: true
 
   /emmet/2.3.6:
