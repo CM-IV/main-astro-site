@@ -11,8 +11,4 @@ export default defineConfig({
     rehypePlugins: [rehypeKatex]
   })],
   site: import.meta.site,
-  // markdown: {
-  //   remarkPlugins: ["remark-gfm", "remark-smartypants", "remark-math"],
-  //   rehypePlugins: ["rehype-katex"]
-  // }
 });
