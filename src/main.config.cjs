@@ -1,6 +1,6 @@
 export default {
-    siteTitle: "Doctrina de Hersperida",
-    siteDescription: "My Projects and Thoughts",
+    siteTitle: "Oceanus",
+    siteDescription: "Website for my projects and thoughts",
     footer: "© Dreamland Software",
     dateFormat: "dd.MM.yyyy HH:mm",
     socialMedia: {
