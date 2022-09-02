@@ -7,8 +7,9 @@ import rehypeKatex from 'rehype-katex';
 // https://astro.build/config
 export default defineConfig({
   integrations: [image(), mdx({
-    remarkPlugins: { extends: [remarkMath] },
-    rehypePlugins: [rehypeKatex]
+    rehypePlugins: [rehypeKatex],
+    remarkPlugins: [remarkMath],
+    extendPlugins: 'astroDefaults'
   })],
   site: import.meta.site,
 });
