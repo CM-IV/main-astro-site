@@ -3,26 +3,25 @@ import Layout from "../layouts/mainLayout.astro";
 import Config from "../main.config.mjs";
 ---
 <html lang="en">
-	<Layout pageTitle="Chuck (CMIV)">
+	<Layout pageTitle="Unique Digital Stories for your Customers">
 		<div>
-			<p>Software Engineer - Web Development and Security</p>
+			<p>Web development and cyber security specialists</p>
 		</div>
 		<hr />
-		<strong><p>Skills / Tech Stacks</p></strong>
 		<p>TypeScript Web Development</p>
 		<ul>
-			<li>NextJS (React) or Preact w/Vite bundler on the frontend</li>
-			<li>Astro static site generator</li>
-			<li>NestJS, AdonisJS, or Go (GIN) on the backend</li>
+			<li>Astro web framework, lighting fast websites - minimal JavaScript</li>
+			<li>NextJS (React) or Preact web applications</li>
+			<li>AdonisJS, NestJS, or Go (Gin) for web APIs</li>
 		</ul>
-		<p>Preferred Databases</p>
+		<p>My Preferred Databases</p>
 		<ul>
 			<li>PostgreSQL</li>
 			<li>Supabase (PostgreSQL)</li>
 			<li>Detabase (NoSQL)</li>
 			<li>MongoDB (NoSQL)</li>
 		</ul>
-		<p>DevOps & CI/CD</p>
+		<p>DevOps & CI/CD Experience</p>
 		<ul>
 			<li>GitHub Actions</li>
 			<li>CircleCI</li>
@@ -33,17 +32,10 @@ import Config from "../main.config.mjs";
 		<strong><p>Projects</p></strong>
 		<ul>
 			<li><a href="https://github.com/CM-IV/mef-api">Monero Economic Forum API</a> -- A fully-featured REST API made with the Go Gin web framework</li>
-			<li><a href="https://github.com/CM-IV/ots-turborepo">Preact Turborepo</a> -- Turborepo manages a full-stack Preact/Adonisjs web app template.</li>
+			<li><a href="https://github.com/CM-IV/Basedbin">Basedbin</a> -- A Pastebin alternative, made with RakkasJS.</li>
 			<li><a href="https://github.com/CM-IV/cmiv-CLI">cmiv-CLI</a> -- NodeJS CLI that bootstraps Vitejs or Snowpack containerized Preact frontends</li>
 			<li><a href="https://github.com/CM-IV/GPACalculator_LinkedList">C++ Linked List GPA Calculator</a> -- A CLI program written in C++ utilizing the Linked List DS</li>
 			<li><a href="https://github.com/CM-IV/web-image-optimizer">Web Image Optimizer</a> -- An Electronjs desktop app for optimizing photos on the web.</li>
-		</ul>
-		<hr />
-		<strong><p>Education</p></strong>
-		<p>2022 Undergraduate at UA Little Rock, 3.4 GPA</p>
-		<ul>
-			<li><a href={Config.socialMedia.ua_little_rock1}>Computer Science, B.S.</a></li>
-			<li><a href={Config.socialMedia.ua_little_rock2}>Mathematics, Minor</a></li>
 		</ul>
 		<hr />
 		<strong><p>Links</p></strong>
@@ -51,6 +43,13 @@ import Config from "../main.config.mjs";
 			<li>Business Email: {Config.socialMedia.email}</li>
 			<li><a href={`https://github.com/${Config.socialMedia.github}`}>GitHub Page</a></li>
 			<li><a href={`https://discord.gg/${Config.socialMedia.discordServer}`}>Discord  Server</a></li>
+		</ul>
+		<hr />
+		<strong><p>Education</p></strong>
+		<p>2022 Undergraduate at UA Little Rock, 3.4 GPA</p>
+		<ul>
+			<li><a href={Config.socialMedia.ua_little_rock1}>Computer Science, B.S.</a></li>
+			<li><a href={Config.socialMedia.ua_little_rock2}>Mathematics, Minor</a></li>
 		</ul>
 		<hr />
 	</Layout>

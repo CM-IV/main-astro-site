@@ -1,6 +1,6 @@
 export default {
-    siteTitle: "Oceanus",
-    siteDescription: "Website for my projects and thoughts",
+    siteTitle: "Oceanus Digital Consulting",
+    siteDescription: "Marketing website for Dreamland Software",
     footer: "© Dreamland Software",
     dateFormat: "dd.MM.yyyy HH:mm",
     socialMedia: {
