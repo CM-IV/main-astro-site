@@ -12,7 +12,7 @@
     "@astrojs/image": "^0.7.0",
     "@astrojs/mdx": "^0.11.1",
     "@astrojs/rss": "^1.0.1",
-    "astro": "^1.2.3",
+    "astro": "^1.2.4",
     "rehype-katex": "^6.0.2",
     "remark-math": "^5.1.1"
   }
