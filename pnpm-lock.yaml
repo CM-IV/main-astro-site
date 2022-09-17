@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/image': ^0.7.0
   '@astrojs/mdx': ^0.11.1
   '@astrojs/rss': ^1.0.1
-  astro: ^1.2.4
+  astro: ^1.2.6
   rehype-katex: ^6.0.2
   remark-math: ^5.1.1
 
@@ -12,7 +12,7 @@ devDependencies:
   '@astrojs/image': 0.7.0
   '@astrojs/mdx': 0.11.1
   '@astrojs/rss': 1.0.1
-  astro: 1.2.4
+  astro: 1.2.6
   rehype-katex: 6.0.2
   remark-math: 5.1.1
 
@@ -63,7 +63,7 @@ packages:
       vscode-languageserver-protocol: 3.17.2
       vscode-languageserver-textdocument: 1.0.7
       vscode-languageserver-types: 3.17.2
-      vscode-uri: 3.0.4
+      vscode-uri: 3.0.5
     dev: true
 
   /@astrojs/markdown-remark/1.1.1:
@@ -767,8 +767,8 @@ packages:
     hasBin: true
     dev: true
 
-  /astro/1.2.4:
-    resolution: {integrity: sha512-RJAdTDb4mECyAzNjl4RFzEHueHpGqvxPMQAYYd59nK7tCqBYzAde1mThzuEtQglSdGnIP3DXia2XtPzoo9mniQ==}
+  /astro/1.2.6:
+    resolution: {integrity: sha512-u6s5EH6+F/IpNkjJJ2RAKMWmBIOVz4AozjyW7aD0hsiGkVF0VYu7AqNWO3TTG6WQ6c9YbosDpfj+JKTT+S/JhA==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -888,8 +888,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001400
-      electron-to-chromium: 1.4.251
+      caniuse-lite: 1.0.30001402
+      electron-to-chromium: 1.4.254
       node-releases: 2.0.6
       update-browserslist-db: 1.0.9_browserslist@4.21.4
     dev: true
@@ -913,8 +913,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001400:
-    resolution: {integrity: sha512-Mv659Hn65Z4LgZdJ7ge5JTVbE3rqbJaaXgW5LEI9/tOaXclfIZ8DW7D7FCWWWmWiiPS7AC48S8kf3DApSxQdgA==}
+  /caniuse-lite/1.0.30001402:
+    resolution: {integrity: sha512-Mx4MlhXO5NwuvXGgVb+hg65HZ+bhUYsz8QtDGDo2QmaJS2GBX47Xfi2koL86lc8K+l+htXeTEB/Aeqvezoo6Ew==}
     dev: true
 
   /ccount/2.0.1:
@@ -1132,8 +1132,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium/1.4.251:
-    resolution: {integrity: sha512-k4o4cFrWPv4SoJGGAydd07GmlRVzmeDIJ6MaEChTUjk4Dmomn189tCicSzil2oyvbPoGgg2suwPDNWq4gWRhoQ==}
+  /electron-to-chromium/1.4.254:
+    resolution: {integrity: sha512-Sh/7YsHqQYkA6ZHuHMy24e6TE4eX6KZVsZb9E/DvU1nQRIrH4BflO/4k+83tfdYvDl+MObvlqHPRICzEdC9c6Q==}
     dev: true
 
   /emmet/2.3.6:
@@ -3931,7 +3931,7 @@ packages:
       vscode-languageserver-textdocument: 1.0.7
       vscode-languageserver-types: 3.17.2
       vscode-nls: 5.2.0
-      vscode-uri: 3.0.4
+      vscode-uri: 3.0.5
     dev: true
 
   /vscode-html-languageservice/5.0.2:
@@ -3940,7 +3940,7 @@ packages:
       vscode-languageserver-textdocument: 1.0.7
       vscode-languageserver-types: 3.17.2
       vscode-nls: 5.2.0
-      vscode-uri: 3.0.4
+      vscode-uri: 3.0.5
     dev: true
 
   /vscode-jsonrpc/8.0.2:
@@ -3986,8 +3986,8 @@ packages:
     resolution: {integrity: sha512-8TEXQxlldWAuIODdukIb+TR5s+9Ds40eSJrw+1iDDA9IFORPjMELarNQE3myz5XIkWWpdprmJjm1/SxMlWOC8A==}
     dev: true
 
-  /vscode-uri/3.0.4:
-    resolution: {integrity: sha512-aEmKD6H8Sg8gaQAUrnadG0BMeWXtiWhRsj1a94n2FYsMkDpgnK7BRVzZjOUYIvkv2B+bp5Bmt4ImZCpYbnJwkg==}
+  /vscode-uri/3.0.5:
+    resolution: {integrity: sha512-bBp2pi1o6ynwlnGL8Tt6UBL1w3VsVZtHCU/Sl73bRfqjno3jMcVSCybdY+hj+31A8FQOELZJWwY+shLVLtcNew==}
     dev: true
 
   /wcwidth/1.0.1:
