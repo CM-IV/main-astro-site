@@ -6,6 +6,7 @@
 
 /* jetbrains-mono-100 - latin */
 @font-face {
+  font-display: swap;
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 100;
@@ -16,6 +17,7 @@
 
 /* jetbrains-mono-regular - latin */
 @font-face {
+  font-display: swap;
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 400;
@@ -26,6 +28,7 @@
 
 /* jetbrains-mono-600 - latin */
 @font-face {
+  font-display: swap;
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-weight: 600;
@@ -36,6 +39,7 @@
 
 /* jetbrains-mono-italic - latin */
 @font-face {
+  font-display: swap;
   font-family: 'JetBrains Mono';
   font-style: italic;
   font-weight: 400;
@@ -46,6 +50,7 @@
 
 /* jetbrains-mono-600italic - latin */
 @font-face {
+  font-display: swap;
   font-family: 'JetBrains Mono';
   font-style: italic;
   font-weight: 600;
