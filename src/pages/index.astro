@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/mainLayout.astro";
 import Config from "../main.config.mjs";
+import { Modal } from "../components/animated/modal";
 ---
 <html lang="en">
 	<Layout pageTitle="Unique Digital Stories for your Customers">
@@ -52,5 +53,6 @@ import Config from "../main.config.mjs";
 			<li><a href={Config.socialMedia.ua_little_rock2}>Mathematics, Minor</a></li>
 		</ul>
 		<hr />
+		<Modal client:load />
 	</Layout>
 </html>

@@ -112,3 +112,10 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
+
+.terminal-alert {
+  position: fixed;       
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
