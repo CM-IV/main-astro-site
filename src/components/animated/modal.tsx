@@ -24,7 +24,7 @@ const Modal = () => {
             {showModal ? (
                 <section onClick={resetModal}>
                     <div class="terminal-alert terminal-alert-error">
-                        This website has one javascript tracker completely independant 
+                        This website has one javascript analytics tracker completely independant 
                         of Google Analytics.  Please consider disabling your
                         ad blocker for this site.
                     </div>
