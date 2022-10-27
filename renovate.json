@@ -4,7 +4,5 @@
     "config:base",
     ":disableDependencyDashboard"
   ],
-  "schedule": [
-    "every weekday"
-  ]
+  "schedule": "before 5am every weekday",
 }
