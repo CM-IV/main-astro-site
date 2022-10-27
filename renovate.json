@@ -4,5 +4,5 @@
     "config:base",
     ":dependencyDashboard"
   ],
-  "schedule": "before 5am every weekday",
+  "schedule": "before 12pm every weekday",
 }
