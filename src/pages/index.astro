@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/mainLayout.astro";
 import Config from "../main.config.mjs";
-import { Modal } from "../components/animated/modal";
+
 ---
 <html lang="en">
 	<Layout pageTitle="Unique Digital Stories for your Customers">
@@ -45,6 +45,5 @@ import { Modal } from "../components/animated/modal";
 			<li><a href={`https://github.com/${Config.socialMedia.github}`}>GitHub Page</a></li>
 		</ul>
 		<hr />
-		<Modal client:load />
 	</Layout>
 </html>

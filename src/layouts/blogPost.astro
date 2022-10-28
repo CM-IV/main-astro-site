@@ -3,6 +3,7 @@ import BlogPost from '../components/blogInfo.astro';
 import Headers from "../components/headers.astro";
 import Nav from "../components/nav.astro";
 import Footer from "../components/footer.astro";
+import { Modal } from "../components/animated/modal";
 
 
 const {content} = Astro.props;
@@ -17,6 +18,7 @@ const {title, description, pubDate, author} = content;
         <slot />
       </BlogPost>
       <Footer />
+      <Modal client:load />
     </div>
   </main>
 </html>
