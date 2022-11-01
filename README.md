@@ -1,6 +1,8 @@
 # Oceanus Digital Consulting
 ## Built with [Astro](https://astro.build/)
 
+![](https://ik.imagekit.io/xbkhabiqcy9/img/Screenshot_2022-11-01_at_11-38-57_Dreamland_Software_Ph6A1iTMl.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1667320964285)
+
 
 ## 🚀 Project Structure
 
