@@ -1,6 +1,5 @@
-# Welcome to [Astro](https://astro.build)
-## Release v1.0 Candidate!
-
+# Oceanus Digital Consulting
+## Built with [Astro](https://astro.build/)
 
 
 ## 🚀 Project Structure
@@ -14,6 +13,11 @@ Here's a rough outline of the directory structure.
 ├── src/
 │   ├── components/
 │   │   └── Layout.astro
+|   ├── css/
+|   |   └── styles.css
+|   ├── layouts/
+|   |   ├── blogPost.astro
+|   |   └── mainLayout.astro
 │   └── pages/
 │       └── index.astro
 └── package.json
@@ -31,7 +35,7 @@ All commands are run from the root of the project, from a terminal:
 
 | Command           | Action                                       |
 | :---------------- | :------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
+| `pnpm install`     | Installs dependencies                        |
+| `pnpm run dev`     | Starts local dev server at `localhost:3000`  |
+| `pnpm run build`   | Build your production site to `./dist/`      |
+| `pnpm run preview` | Preview your build locally, before deploying |
