@@ -24,9 +24,9 @@ const Modal = () => {
             {showModal ? (
                 <section onClick={resetModal}>
                     <div class="terminal-alert terminal-alert-error">
-                        This website has one javascript analytics tracker completely independant 
+                        This website has one <a href="https://github.com/umami-software/umami">open source</a> JavaScript analytics tracker completely independent 
                         of Google Analytics.  Please consider disabling your
-                        ad blocker for this site.
+                        ad blocker for this site so that I may see where traffic goes.
                     </div>
                 </section>
             ) : (null)}
