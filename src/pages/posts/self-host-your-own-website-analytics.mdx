@@ -24,7 +24,7 @@ services:
     environment:
       DATABASE_URL: postgresql://umami:umami@db:5432/umami
       DATABASE_TYPE: postgresql
-      HASH_SALT: {SALT_STRING}
+      HASH_SALT: awget34rrq23rqawd456874
     depends_on:
       - db
     networks:
@@ -33,9 +33,9 @@ services:
   db:
     image: postgres:12-alpine
     environment:
-      POSTGRES_DB: {DB_NAME}
-      POSTGRES_USER: {DB_USER}
-      POSTGRES_PASSWORD: {DB_PASS}
+      POSTGRES_DB: umami
+      POSTGRES_USER: umami
+      POSTGRES_PASSWORD: 902309waefhalkwn
     volumes:
       - ./schema.postgresql.sql:/docker-entrypoint-initdb.d/schema.postgresql.sql:ro
       - /mnt/storage/umami/db:/var/lib/postgresql/data
