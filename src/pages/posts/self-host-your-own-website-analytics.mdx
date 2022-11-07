@@ -14,7 +14,7 @@ A﻿ll that is needed for the analytics to work on your website is one simple Ja
 
 H﻿ere's the yml file that will be used for the containers:
 
-`﻿``yaml
+```yaml
 version: '3'
 services:
   umami:
@@ -45,7 +45,7 @@ services:
 networks:
   tunnel:
     external: true
-`﻿``
+```
 
 Y﻿ou'll notice here that I am using an external network called "tunnel".  This allows me to expose the analytics dashboard to the outside internet thru a Cloudflare Tunnel.  I am currently using that in conjunction with Cloudflare Access in order to secure the site and only allow a range of IP addresses access to it.
 
