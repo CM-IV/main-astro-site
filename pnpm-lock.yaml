@@ -5,7 +5,7 @@ specifiers:
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': ^1.0.0
   '@astrojs/solid-js': ^1.2.2
-  astro: 1.6.7
+  astro: 1.6.8
   rehype-katex: 6.0.2
   remark-math: 5.1.1
   solid-js: ^1.6.2
@@ -14,8 +14,8 @@ devDependencies:
   '@astrojs/mdx': 0.11.6
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/solid-js': 1.2.2_solid-js@1.6.2
-  astro: 1.6.7
+  '@astrojs/solid-js': 1.2.3_solid-js@1.6.2
+  astro: 1.6.8
   rehype-katex: 6.0.2
   remark-math: 5.1.1
   solid-js: 1.6.2
@@ -30,8 +30,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@astrojs/compiler/0.29.13:
-    resolution: {integrity: sha512-C9+91vsWiJspj/VkVp6UtSIrJGuj/Aia1KCEDzg2Ge27uSDCOl1QlUQuAAnAbGpFBF71uaYOUZOPCbptQeGbdQ==}
+  /@astrojs/compiler/0.29.15:
+    resolution: {integrity: sha512-vicPD8oOPNkcFZvz71Uz/nJcadovurUQ3L0yMZNPb6Nn6T1nHhlSHt5nAKaurB2pYU9DrxOFWZS2/RdV+JsWmQ==}
     dev: true
 
   /@astrojs/language-server/0.28.3:
@@ -142,15 +142,15 @@ packages:
       zod: 3.19.1
     dev: true
 
-  /@astrojs/solid-js/1.2.2_solid-js@1.6.2:
-    resolution: {integrity: sha512-kC16HKo4LVQfecfRHqRsqaVMQ7wrziege0YieZipuY3HvsX4l3i4O+QCnyHQsJ9W5MMdUvFAtf1IP1nJAdvisA==}
+  /@astrojs/solid-js/1.2.3_solid-js@1.6.2:
+    resolution: {integrity: sha512-YyWQVcIeUMGKTnK3myXmBrG6dfYL5qiQNn8fv50jV0nPgahLeSUTIVxtt5WtqmbFr5kGTwDyk63TZoUvCUWJXA==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
       solid-js: ^1.4.3
     dependencies:
       babel-preset-solid: 1.6.2
       solid-js: 1.6.2
-      vitefu: 0.1.1
+      vitefu: 0.2.1
     transitivePeerDependencies:
       - '@babel/core'
       - vite
@@ -814,12 +814,12 @@ packages:
     hasBin: true
     dev: true
 
-  /astro/1.6.7:
-    resolution: {integrity: sha512-xx910blM5qfSMyesmVmuhXqKMIOa2WL/WTSfYv84pB9JocgtAfGKlmS1HZNqWd0h9YLreYbGRzXhbtv2Qfd8vw==}
+  /astro/1.6.8:
+    resolution: {integrity: sha512-+kOj8s2fguCFCim9he6fl9iugIHrmAl7BmfNXdTdC9zU30VYV162HF5eRJyMlY5hGuDn3GvAoaNSzCMnybVsFQ==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 0.29.13
+      '@astrojs/compiler': 0.29.15
       '@astrojs/language-server': 0.28.3
       '@astrojs/markdown-remark': 1.1.3
       '@astrojs/telemetry': 1.0.1
@@ -877,7 +877,7 @@ packages:
       unist-util-visit: 4.1.1
       vfile: 5.3.5
       vite: 3.2.3
-      vitefu: 0.1.1_vite@3.2.3
+      vitefu: 0.2.1_vite@3.2.3
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
@@ -1068,8 +1068,8 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
 
-  /comma-separated-tokens/2.0.2:
-    resolution: {integrity: sha512-G5yTt3KQN4Yn7Yk4ed73hlZ1evrFKXeUW3086p3PRFNp7m2vIjI6Pg+Kgb+oyzhd9F2qdcoj67+y3SdxL5XWsg==}
+  /comma-separated-tokens/2.0.3:
+    resolution: {integrity: sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==}
     dev: true
 
   /commander/8.3.0:
@@ -1931,9 +1931,9 @@ packages:
     resolution: {integrity: sha512-dhIVGoKCQVewFi+vz3Vt567E4ejMppS1haBRL6TEmeLeJVB1i/FJIIg/e6s1Bwn0g5qtYojHEKvyGA+OZuyifw==}
     dependencies:
       '@types/unist': 2.0.6
-      comma-separated-tokens: 2.0.2
+      comma-separated-tokens: 2.0.3
       property-information: 6.1.1
-      space-separated-tokens: 2.0.1
+      space-separated-tokens: 2.0.2
       style-to-object: 0.3.0
       unist-util-is: 5.1.1
       web-namespaces: 2.0.1
@@ -1978,7 +1978,7 @@ packages:
       unist-util-visit: 4.1.1
       vfile: 5.3.5
       web-namespaces: 2.0.1
-      zwitch: 2.0.2
+      zwitch: 2.0.3
     dev: true
 
   /hast-util-to-estree/2.1.0:
@@ -1988,17 +1988,17 @@ packages:
       '@types/estree-jsx': 1.0.0
       '@types/hast': 2.3.4
       '@types/unist': 2.0.6
-      comma-separated-tokens: 2.0.2
+      comma-separated-tokens: 2.0.3
       estree-util-attach-comments: 2.1.0
       estree-util-is-identifier-name: 2.0.1
       hast-util-whitespace: 2.0.0
       mdast-util-mdx-expression: 1.3.1
       mdast-util-mdxjs-esm: 1.3.0
       property-information: 6.1.1
-      space-separated-tokens: 2.0.1
+      space-separated-tokens: 2.0.2
       style-to-object: 0.3.0
       unist-util-position: 4.0.3
-      zwitch: 2.0.2
+      zwitch: 2.0.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2008,12 +2008,12 @@ packages:
     dependencies:
       '@types/hast': 2.3.4
       ccount: 2.0.1
-      comma-separated-tokens: 2.0.2
+      comma-separated-tokens: 2.0.3
       hast-util-is-element: 2.1.2
       hast-util-whitespace: 2.0.0
       html-void-elements: 2.0.1
       property-information: 6.1.1
-      space-separated-tokens: 2.0.1
+      space-separated-tokens: 2.0.2
       stringify-entities: 4.0.3
       unist-util-is: 5.1.1
     dev: true
@@ -2026,7 +2026,7 @@ packages:
       hast-to-hyperscript: 10.0.1
       property-information: 6.1.1
       web-namespaces: 2.0.1
-      zwitch: 2.0.2
+      zwitch: 2.0.3
     dev: true
 
   /hast-util-to-text/3.1.1:
@@ -2045,10 +2045,10 @@ packages:
     resolution: {integrity: sha512-uBjaTTLN0MkCZxY/R2fWUOcu7FRtUVzKRO5P/RAfgsu3yFiMB1JWCO4AjeVkgHxAira1f2UecHK5WfS9QurlWA==}
     dependencies:
       '@types/hast': 2.3.4
-      comma-separated-tokens: 2.0.2
+      comma-separated-tokens: 2.0.3
       hast-util-parse-selector: 3.1.0
       property-information: 6.1.1
-      space-separated-tokens: 2.0.1
+      space-separated-tokens: 2.0.2
     dev: true
 
   /html-entities/2.3.2:
@@ -2519,7 +2519,7 @@ packages:
       mdast-util-to-string: 3.1.0
       micromark-util-decode-string: 1.0.2
       unist-util-visit: 4.1.1
-      zwitch: 2.0.2
+      zwitch: 2.0.3
     dev: true
 
   /mdast-util-to-string/3.1.0:
@@ -3158,7 +3158,7 @@ packages:
     resolution: {integrity: sha512-ehCUx7MqHWvkHwUmxxAWLsL35pFaCTM5YXQ8xjG/1W6dY2yBhvEks+2aCfjeI5zmMrZNCXkiMQtpznSlLSLrxw==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     dependencies:
-      '@astrojs/compiler': 0.29.13
+      '@astrojs/compiler': 0.29.15
       prettier: 2.7.1
       sass-formatter: 0.7.5
       synckit: 0.8.4
@@ -3345,7 +3345,7 @@ packages:
     dependencies:
       '@types/nlcst': 1.0.0
       parse-latin: 5.0.1
-      unherit: 3.0.0
+      unherit: 3.0.1
       unified: 10.1.2
     dev: true
 
@@ -3541,8 +3541,8 @@ packages:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     dev: true
 
-  /space-separated-tokens/2.0.1:
-    resolution: {integrity: sha512-ekwEbFp5aqSPKaqeY1PGrlGQxPNaq+Cnx4+bE2D8sciBQrHpbwoBbawqTN2+6jPs9IdWxxiUcN0K2pkczD3zmw==}
+  /space-separated-tokens/2.0.2:
+    resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
     dev: true
 
   /sprintf-js/1.0.3:
@@ -3738,8 +3738,8 @@ packages:
     hasBin: true
     dev: true
 
-  /unherit/3.0.0:
-    resolution: {integrity: sha512-UmvIQZGEc9qdLIQ8mv8/61n6PiMgfbOoASPKHpCvII5srShCQSa6jSjBjlZOR4bxt2XnT6uo6csmPKRi+zQ0Jg==}
+  /unherit/3.0.1:
+    resolution: {integrity: sha512-akOOQ/Yln8a2sgcLj4U0Jmx0R5jpIg2IUyRrWOzmEbjBtGzBdHtSeFKgoEcoH4KYIG/Pb8GQ/BwtYm0GCq1Sqg==}
     dev: true
 
   /unified/10.1.2:
@@ -3916,8 +3916,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu/0.1.1:
-    resolution: {integrity: sha512-HClD14fjMJ+NQgXBqT3dC3RdO/+Chayil+cCPYZKY3kT+KcJomKzrdgzfCHJkIL2L0OAY+VPvrSW615iPtc7ag==}
+  /vitefu/0.2.1:
+    resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
     peerDependencies:
       vite: ^3.0.0
     peerDependenciesMeta:
@@ -3925,8 +3925,8 @@ packages:
         optional: true
     dev: true
 
-  /vitefu/0.1.1_vite@3.2.3:
-    resolution: {integrity: sha512-HClD14fjMJ+NQgXBqT3dC3RdO/+Chayil+cCPYZKY3kT+KcJomKzrdgzfCHJkIL2L0OAY+VPvrSW615iPtc7ag==}
+  /vitefu/0.2.1_vite@3.2.3:
+    resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
     peerDependencies:
       vite: ^3.0.0
     peerDependenciesMeta:
@@ -4076,6 +4076,6 @@ packages:
     resolution: {integrity: sha512-LYjZsEDhCdYET9ikFu6dVPGp2YH9DegXjdJToSzD9rO6fy4qiRYFoyEYwps88OseJlPyl2NOe2iJuhEhL7IpEA==}
     dev: true
 
-  /zwitch/2.0.2:
-    resolution: {integrity: sha512-JZxotl7SxAJH0j7dN4pxsTV6ZLXoLdGME+PsjkL/DaBrVryK9kTGq06GfKrwcSOqypP+fdXGoCHE36b99fWVoA==}
+  /zwitch/2.0.3:
+    resolution: {integrity: sha512-dn/sDAIuRCsXGnBD4P+SA6nv7Y54HQZjC4SPL8PToU3714zu7wSEc1129D/i0+vvjRfOlFo4Zqrpwj+Zhcykhw==}
     dev: true
