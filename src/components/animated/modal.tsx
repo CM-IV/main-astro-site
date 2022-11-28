@@ -33,9 +33,7 @@ const Modal = () => {
             >
                 <section onClick={disableModal}>
                     <div class="terminal-alert terminal-alert-error">
-                        This website has one <a href="https://github.com/umami-software/umami">open source</a> JavaScript analytics tracker completely independent 
-                        of Google Analytics.  Please consider disabling your
-                        ad blocker for this site so that I may see where traffic goes.
+                        This website uses one <a href="https://github.com/umami-software/umami">open source</a> JavaScript analytics cookie.
                     </div>
                 </section>
             </Show>
