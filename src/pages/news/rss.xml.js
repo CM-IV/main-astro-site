@@ -1,4 +1,6 @@
 import rss from "@astrojs/rss";
+import { parse } from "marked";
+import sanitizeHTML from "sanitize-html";
 
 const allPosts = import.meta.glob('../posts/*.md', { eager: true });
 
@@ -18,6 +20,6 @@ export const get = () => rss({
         description: item.frontmatter.description,
         link: item.url,
         pubDate: item.frontmatter.pubDate,
-        content: item.rawContent(),
+        content: sanitizeHTML(parse(item.rawContent())),
     }))
 });
