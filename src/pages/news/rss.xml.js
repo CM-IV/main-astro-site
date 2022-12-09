@@ -1,6 +1,7 @@
 import rss from "@astrojs/rss";
+import sanitizeHtml from 'sanitize-html';
 
-const allPosts = import.meta.globEager('../posts/*.mdx');
+const allPosts = import.meta.glob('../posts/*.md', { eager: true });
 
 const posts = Object.values(allPosts);
 
@@ -13,11 +14,12 @@ export const get = () => rss({
     description: "Curated web development and security news.",
     site: import.meta.env.PUBLIC_SITE,
     // stylesheet: '/rss/styles.xsl',
-    items: sortedPosts.map(item => ({
+    items: sortedPosts.map((item) => ({
         
         title: item.frontmatter.title,
         description: item.frontmatter.description,
         link: item.url,
         pubDate: item.frontmatter.pubDate,
+        content: sanitizeHtml(item.compiledContent())
     }))
 });

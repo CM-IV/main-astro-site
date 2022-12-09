@@ -49,4 +49,4 @@ networks:
 
 Y﻿ou'll notice here that I am using an external network called "tunnel".  This allows me to expose the analytics dashboard to the outside internet thru a Cloudflare Tunnel.  I am currently using that in conjunction with Cloudflare Access in order to secure the site and only allow a range of IP addresses access to it.
 
-<img class="image" alt="umami-image-1" src="https://ik.imagekit.io/xbkhabiqcy9/img/umami2_IAg3WhLUA.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1667840164653" width={860} height={392}></img>
+<img class="image" alt="umami-image-1" src="https://ik.imagekit.io/xbkhabiqcy9/img/umami2_IAg3WhLUA.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1667840164653" width={860} height={392}>

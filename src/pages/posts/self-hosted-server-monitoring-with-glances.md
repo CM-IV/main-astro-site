@@ -11,7 +11,7 @@ Check out *Glances* in order to monitor and keep track of your own homelab serve
 
 This instance of Glances that is runnning a webserver will be used to supply data to an instance of *Dashy* that I will make a post about in the future.  That will be the cool frontend to this Glances data collection program.
 
-<img class="image" alt="glanges-image-1" src="https://ik.imagekit.io/xbkhabiqcy9/img/Glances_11C2N31f8.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1665079251247" width={860} height={392}></img>
+<img class="image" alt="glanges-image-1" src="https://ik.imagekit.io/xbkhabiqcy9/img/Glances_11C2N31f8.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1665079251247" width={860} height={392}>
 
 Below this image is the docker-compose yaml file that I am using in order to automate the docker container:
 
