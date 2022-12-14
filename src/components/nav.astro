@@ -10,6 +10,35 @@ const pageTitle = Config.siteTitle;
       <a href="/" id="brand">{pageTitle}</a>
     </li>
   </ul>
+  <details role="list">
+    <summary aria-haspopup="listbox" role="button">Links</summary>
+    <ul role="listbox">
+      <li property="itemListElement" typeof="ListItem">
+        <a href="/news" property="item" typeof="WebPage" class="menu-item">
+          <span property="name">Posts</span>
+        </a>
+        <meta property="position" content="1">
+      </li>
+      <li property="itemListElement" typeof="ListItem">
+        <a href="/downloads" property="item" typeof="WebPage" class="menu-item">
+          <span property="name">Downloads</span>
+        </a>
+        <meta property="position" content="2">
+      </li>
+      <li property="itemListElement" typeof="ListItem">
+        <a href="/archive" property="item" typeof="WebPage" class="menu-item">
+          <span property="name">Archives</span>
+        </a>
+        <meta property="position" content="3">
+      </li>
+      <li property="itemListElement" typeof="ListItem">
+        <a href="/news/rss.xml" property="item" typeof="WebPage" class="menu-item">
+          <span property="name">Feed</span>
+        </a>
+        <meta property="position" content="4">
+      </li>
+    </ul>
+  </details>
   <ul vocab="https://schema.org/" typeof="BreadcrumbList" id="hamitems">
     <li property="itemListElement" typeof="ListItem">
       <a href="/news" property="item" typeof="WebPage" class="menu-item">

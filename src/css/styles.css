@@ -14,3 +14,19 @@
   width: 100%;
   height: auto;
 }
+
+details {
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 540px) {
+  #hamitems {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 541px) {
+  details {
+    display: none;
+  }
+}
