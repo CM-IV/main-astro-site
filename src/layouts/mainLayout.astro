@@ -2,20 +2,14 @@
 import Headers from "../components/headers.astro";
 import Footer from "../components/footer.astro";
 import Nav from "../components/nav.astro";
-import { Modal } from "../components/animated/modal";
-
-const { pageTitle } = Astro.props;
 ---
-
-<Headers title="Dreamland Software"/>
-<main>
-    <div class="container">
-        <Nav />
-        <div>
-            <h2>{pageTitle}</h2>
+<html lang="en" data-theme="dark">
+    <Headers title="Dreamland Software"/>
+        <div class="container">
+            <Nav />
+            <main>
+                <slot />
+            </main>
+            <Footer />
         </div>
-        <slot />
-        <Footer />
-        <Modal client:load />
-    </div>
-</main>
+</html>
