@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/rss': 1.2.0
+  '@astrojs/rss': 1.2.1
   '@astrojs/sitemap': ^1.0.0
   '@types/marked': ^4.0.8
   '@types/sanitize-html': ^2.6.2
@@ -12,7 +12,7 @@ specifiers:
   sanitize-html: ^2.7.3
 
 devDependencies:
-  '@astrojs/rss': 1.2.0
+  '@astrojs/rss': 1.2.1
   '@astrojs/sitemap': 1.0.0
   '@types/marked': 4.0.8
   '@types/sanitize-html': 2.6.2
@@ -110,8 +110,8 @@ packages:
       prismjs: 1.29.0
     dev: true
 
-  /@astrojs/rss/1.2.0:
-    resolution: {integrity: sha512-ytWw4uzxhgTOmw7l0FuosCzCNxzFIkU55RuCEimyJgU51WoiIQpkNh65S0Uq3gz7NQUH90zBvVVioSJ/ZtNbiA==}
+  /@astrojs/rss/1.2.1:
+    resolution: {integrity: sha512-ZgCunS6ECuPpxBznBYE+ONf23rcp+OWZ5IyDKFAcVZCWEq8Bh0rVYa9p8u6cU9WOTK56JRQTuwcVZYndmExNtw==}
     dependencies:
       fast-xml-parser: 4.0.12
     dev: true
@@ -175,7 +175,7 @@ packages:
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
-      json5: 2.2.1
+      json5: 2.2.2
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
@@ -1894,8 +1894,8 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
 
-  /json5/2.2.1:
-    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
+  /json5/2.2.2:
+    resolution: {integrity: sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==}
     engines: {node: '>=6'}
     hasBin: true
     dev: true
@@ -3273,7 +3273,7 @@ packages:
     dependencies:
       '@types/json5': 0.0.30
       '@types/resolve': 1.20.2
-      json5: 2.2.1
+      json5: 2.2.2
       resolve: 1.22.1
       strip-bom: 4.0.0
       type-fest: 0.13.1
