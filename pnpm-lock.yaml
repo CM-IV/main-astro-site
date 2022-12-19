@@ -5,7 +5,7 @@ specifiers:
   '@astrojs/sitemap': ^1.0.0
   '@types/marked': ^4.0.8
   '@types/sanitize-html': ^2.6.2
-  astro: 1.7.1
+  astro: 1.7.2
   marked: ^4.2.4
   rehype-katex: 6.0.2
   remark-math: 5.1.1
@@ -16,7 +16,7 @@ devDependencies:
   '@astrojs/sitemap': 1.0.0
   '@types/marked': 4.0.8
   '@types/sanitize-html': 2.8.0
-  astro: 1.7.1
+  astro: 1.7.2
   marked: 4.2.4
   rehype-katex: 6.0.2
   remark-math: 5.1.1
@@ -716,8 +716,8 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /astro/1.7.1:
-    resolution: {integrity: sha512-ENfHAm8/zYPgO5G1KJtCzt+hnTJaYdfjYqFWBB9PcBdxlHOOQvOd1zWCVX+uOvwKe8+ASUHXyyyULh3qlB5UUQ==}
+  /astro/1.7.2:
+    resolution: {integrity: sha512-svgkfJUBcNzWV9YeoAGv+T96HjSK1j1xy1CbUA4JALU99WEvmJ1tFZBSrd1+m5xW9MuNOleSViGTfXhHfUaH9A==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
