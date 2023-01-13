@@ -4,6 +4,7 @@ import Config from "../main.config.mjs";
 
 ---
 <Layout pageTitle="Unique Digital Stories for your Customers">
+	<p>Software Engineer & Web Developer for <a href="#hireme">hire</a></p>
 
 	<p>TypeScript Web Development</p>
 	<ul>
@@ -36,9 +37,11 @@ import Config from "../main.config.mjs";
 		<li><a href="https://github.com/CM-IV/web-image-optimizer">Web Image Optimizer</a> -- An Electronjs desktop app for optimizing photos on the web.</li>
 	</ul>
 	<hr />
-	<strong><p>Links</p></strong>
+	<strong><p>Contact Me</p></strong>
 	<ul>
-		<li>Business Email: {Config.socialMedia.email}</li>
+		<li id="hireme">Business Email: <strong>{Config.socialMedia.email}</strong></li>
+		<li>Matrix.org Handle: <strong>{Config.socialMedia.matrix}</strong></li>
+		<li>Discord Handle: <strong>{Config.socialMedia.discord}</strong></li>
 		<li><a href={`https://github.com/${Config.socialMedia.github}`}>GitHub Page</a></li>
 	</ul>
 </Layout>

@@ -6,6 +6,8 @@ export default {
     socialMedia: {
       github: "CM-IV",
       email: "chuck[at]civdev[dot]xyz",
+      discord: "chuck#7134",
+      matrix: "seisachtheia@matrix.org",
       linuxFileUrl: "https://www.mediafire.com/file/ovm6hgotd362ssb/Web+Image+Optimizer.AppImage/file",
       winFileUrl: "https://www.mediafire.com/file/xbj0gxeujv68flb/Web+Image+Optimizer-Windows-Setup.exe/file"
     },
