@@ -11,18 +11,14 @@ export interface Props {
 const { title, description, pubDate } = Astro.props;
 ---
 <section>
-  <article>
-    <div>
-      <header>
-        <p>{pubDate}</p>
-        <h3>{title}</h3>
-        <p>{description}</p>
-        <Author name="CM-IV" />
-      </header>
-      <slot />
-      <div class="Giscus"></div>
-    </div>
-  </article>
+  <header>
+    <p>{pubDate}</p>
+    <h3>{title}</h3>
+    <p>{description}</p>
+    <Author name="CM-IV" />
+  </header>
+  <slot />
+  <div class="Giscus"></div>
 </section>
 <script src="https://giscus.app/client.js"
         data-repo="CM-IV/main-astro-site"
@@ -33,7 +29,7 @@ const { title, description, pubDate } = Astro.props;
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="dark_high_contrast"
+        data-theme="preferred-color-scheme"
         data-lang="en"
         crossorigin="anonymous"
         async>

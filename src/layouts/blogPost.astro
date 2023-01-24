@@ -9,14 +9,11 @@ const {title, description, pubDate, author} = content;
 ---
 <html lang={ content.lang || 'en' } data-theme="dark">
   <Headers title="Blog Posts" />
-  
-    <div class="container">
-      <Nav />
-      <BlogPost title={title} description={description} author={author} pubDate={pubDate}>
-        <main>
-          <slot />
-        </main>
-      </BlogPost>
-      <Footer />
-    </div>
+    <Nav />
+    <BlogPost title={title} description={description} author={author} pubDate={pubDate}>
+      <main>
+        <slot />
+      </main>
+    </BlogPost>
+    <Footer />
 </html>
