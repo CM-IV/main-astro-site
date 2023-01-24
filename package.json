@@ -9,11 +9,12 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/rss": "2.0.0",
+    "@astrojs/mdx": "^0.15.0",
+    "@astrojs/rss": "2.1.0",
     "@astrojs/sitemap": "^1.0.0",
     "@types/marked": "^4.0.8",
     "@types/sanitize-html": "^2.6.2",
-    "astro": "1.9.2",
+    "astro": "2.0.0",
     "marked": "^4.2.4",
     "rehype-katex": "6.0.2",
     "remark-math": "5.1.1",

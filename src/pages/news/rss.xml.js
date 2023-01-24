@@ -1,4 +1,6 @@
-import rss from "@astrojs/rss";
+import rss, {
+    pagesGlobToRssItems
+ } from "@astrojs/rss";
 import { marked } from "marked";
 import sanitizeHTML from "sanitize-html";
 
@@ -8,7 +10,7 @@ marked.setOptions({
     smartypants:true
 })
 
-const allPosts = import.meta.glob('../posts/*.md', { eager: true });
+const allPosts = pagesGlobToRssItems(import.meta.glob('../posts/*.{md,mdx}'));
 
 const posts = Object.values(allPosts);
 

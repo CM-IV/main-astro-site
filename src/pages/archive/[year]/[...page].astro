@@ -6,7 +6,7 @@ import PostPreviewList from "../../../components/postPreviewList.astro";
 
 export async function getStaticPaths({paginate}) {
 
-  const allPosts = await Astro.glob("../../posts/*.md");
+  const allPosts = await Astro.glob("../../posts/*.{md,mdx}");
 
   let allYears = allPosts
     .filter((f) => f.frontmatter.pubDate != undefined && f.frontmatter.draft != true)
