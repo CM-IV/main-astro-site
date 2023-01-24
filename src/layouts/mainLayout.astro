@@ -5,11 +5,9 @@ import Nav from "../components/nav.astro";
 ---
 <html lang="en" data-theme="dark">
     <Headers title="Dreamland Software"/>
-        <div class="container">
-            <Nav />
-            <main>
-                <slot />
-            </main>
-            <Footer />
-        </div>
+        <Nav />
+        <main>
+            <slot />
+        </main>
+        <Footer />
 </html>

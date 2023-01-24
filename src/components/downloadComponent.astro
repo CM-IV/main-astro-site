@@ -5,9 +5,9 @@ const linuxFileUrl = Config.socialMedia.linuxFileUrl
 const winFileUrl = Config.socialMedia.winFileUrl;
 ---
 <article>
-    <header>Web Image Optimizer</header>
-    <div class="grid">
-        <div>
+    <p><strong>Web Image Optimizer</strong></p>
+    <div class="flex-grid">
+        <div class="col">
             <header>Linux</header>
             <div id="links">
                 <a  href={linuxFileUrl}>AppImage Download</a>
@@ -19,7 +19,7 @@ const winFileUrl = Config.socialMedia.winFileUrl;
                 <a href="/linuxChecksum/Linux_amd64.sha512sum" download>sha512sum</a>
             </div>
         </div>
-        <div>
+        <div class="col">
             <header>Windows</header>
             <div id="links">
                 <a href={winFileUrl}>Installer Download (.exe)</a>

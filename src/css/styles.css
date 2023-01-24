@@ -1,13 +1,7 @@
-@import "./pico.min.css";
+@import "./simple.min.css";
 
 * {
   box-sizing: border-box;
-}
-
-#brand {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 .image {
@@ -15,18 +9,15 @@
   height: auto;
 }
 
-details {
-  margin-top: 1.5rem;
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
 }
 
-@media only screen and (max-width: 540px) {
-  #hamitems {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 541px) {
-  details {
-    display: none;
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
   }
 }
