@@ -1,0 +1,57 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Config from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={Config.SITE_TITLE} description={Config.SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={Config.SITE_TITLE} />
+		<main>
+			<p>TypeScript Web Development</p>
+			<ul>
+				<li>Astrojs web framework, lighting fast websites - minimal JavaScript</li>
+				<li>NextJS (React) or Preact web applications</li>
+				<li>AdonisJS, NestJS, or Go (Gin) for web APIs</li>
+			</ul>
+			<p>My Preferred Databases</p>
+			<ul>
+				<li>PostgreSQL</li>
+				<li>Supabase (PostgreSQL)</li>
+				<li>MySQL</li>
+				<li>Detabase (NoSQL)</li>
+			</ul>
+			<p>DevOps & CI/CD Experience</p>
+			<ul>
+				<li>GitHub Actions</li>
+				<li>CircleCI</li>
+				<li>WoodpeckerCI (A self-hosted fork of DroneCI)</li>
+				<li>Self-hosted Kubernetes K3s workloads using Portainer (Docker)</li>
+			</ul>
+			<hr />
+			<strong><p>Projects</p></strong>
+			<ul>
+				<li><a href="https://github.com/CM-IV/gossip-gobbler-web">Gossip Gobbler</a> -- An automated static website scraper with integrated drive storage, Adonisjs web application</li>
+				<li><a href="https://github.com/CM-IV/astro-fast-dash">Astro Fast Dash</a> -- A homelab dashboard made with Astro SSR</li>
+				<li><a href="https://github.com/CM-IV/Basedbin">Basedbin</a> -- A Pastebin alternative, made with RakkasJS</li>
+				<li><a href="https://github.com/CM-IV/cmiv-CLI">cmiv-CLI</a> -- NodeJS CLI that bootstraps frontends for web applications</li>
+				<li><a href="https://github.com/CM-IV/Zat">Zat</a> -- A simple <i>cat</i> replacement written in Rust utilizing the Vector Data Structure</li>
+				<li><a href="https://github.com/CM-IV/web-image-optimizer">Web Image Optimizer</a> -- An Electronjs desktop app for optimizing photos on the web</li>
+			</ul>
+			<hr />
+			<strong><p>Contact Me</p></strong>
+			<ul>
+				<li id="hireme">Business Email: <strong>{Config.socialMedia.email}</strong></li>
+				<li>Matrix.org Handle: <strong>{Config.socialMedia.matrix}</strong></li>
+				<li>Discord Handle: <strong>{Config.socialMedia.discord}</strong></li>
+				<li><a href={`https://github.com/${Config.socialMedia.github}`}>GitHub Page</a></li>
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>

@@ -1,0 +1,17 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import Config from '../consts';
+---
+
+<header>
+	<h2>
+		{Config.SITE_TITLE}
+	</h2>
+	<p>Software Engineer & Web Developer for <a href="/#hireme">hire</a></p>
+	<nav>
+		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/blog">Blog</HeaderLink>
+		<HeaderLink href="/downloads">Downloads</HeaderLink>
+		<HeaderLink href="rss.xml">RSS</HeaderLink>
+	  </nav>
+</header>

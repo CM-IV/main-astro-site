@@ -1,0 +1,21 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from '../components/Header.astro';
+import DownloadComponent from "../components/DownloadComponent.astro";
+import Config from '../consts';
+import Footer from "../components/Footer.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={Config.SITE_TITLE} description={Config.SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={Config.SITE_TITLE} />
+		<main>
+			<DownloadComponent />
+		</main>
+		<Footer />
+	</body>
+</html>
