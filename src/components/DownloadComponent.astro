@@ -1,11 +1,13 @@
 ---
 import Config from "../consts";
 
-const linuxFileUrl = Config.socialMedia.linuxFileUrl
+const rsCalcUrl = Config.socialMedia.rsCalcUrl;
+const linuxFileUrl = Config.socialMedia.linuxFileUrl;
 const winFileUrl = Config.socialMedia.winFileUrl;
 ---
 <article>
     <p><strong>Web Image Optimizer</strong></p>
+    <p>Image processor desktop application for the web</p>
     <div class="flex-grid">
         <div class="col">
             <header>Linux</header>
@@ -26,6 +28,21 @@ const winFileUrl = Config.socialMedia.winFileUrl;
             </div>
             <div id="links">
                 <a href="/winChecksum/Win_x64.sha512sum" download>sha512sum</a>
+            </div>
+        </div>
+    </div>
+</article>
+<article>
+    <p><strong>RS-Calc</strong></p>
+    <p>A linear algebra calculator written in Rust</p>
+    <div class="flex-grid">
+        <div class="col">
+            <header>Linux</header>
+            <div id="links">
+                <a  href={rsCalcUrl}>Binary Release</a>
+            </div>
+            <div id="links">
+                <a href="/linuxChecksum/rs-calc.sha512sum" download>sha512sum</a>
             </div>
         </div>
     </div>

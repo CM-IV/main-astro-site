@@ -12,7 +12,8 @@ export default {
       discord: "chuck#7134",
       matrix: "seisachtheia@matrix.org",
       linuxFileUrl: "https://www.mediafire.com/file/ovm6hgotd362ssb/Web+Image+Optimizer.AppImage/file",
-      winFileUrl: "https://www.mediafire.com/file/xbj0gxeujv68flb/Web+Image+Optimizer-Windows-Setup.exe/file"
+      winFileUrl: "https://www.mediafire.com/file/xbj0gxeujv68flb/Web+Image+Optimizer-Windows-Setup.exe/file",
+      rsCalcUrl: "https://github.com/CM-IV/rs-calc/releases"
     },
     pageSize: 8,
     i18n: {
