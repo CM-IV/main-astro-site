@@ -3,7 +3,7 @@
 
 export default {
     SITE_TITLE: "Oceanus Digital Consulting",
-    SITE_DESCRIPTION: "Marketing website for Dreamland Software",
+    SITE_DESCRIPTION: "Technologies and Consulting Website",
     footer: "© Dreamland Software",
     dateFormat: "dd.MM.yyyy HH:mm",
     socialMedia: {

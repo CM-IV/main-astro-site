@@ -7,9 +7,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://home.civdev.xyz/',
-	experimental: {
-		assets: true
-	},
 	integrations: [mdx({
 		remarkPlugins: [remarkMath],
       	rehypePlugins: [rehypeKatex]
