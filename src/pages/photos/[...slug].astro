@@ -1,0 +1,31 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+
+export async function getStaticPaths() {
+    const photos = await getCollection('photos', ({ data }) => {
+        return data.draft !== true;
+    });
+
+    const orderedPhotos: CollectionEntry<'photos'>[] = photos.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+
+    return orderedPhotos.map(( photo ) => ({
+        params: { slug: photo.slug },
+        props: photo,
+    }));
+}
+
+type Props = CollectionEntry<'photos'>;
+
+const photo = Astro.props;
+const { Content } = await photo.render();
+---
+
+<BlogPost {...photo.data}>
+    <h3>{photo.data.title}</h3>
+	<p>{photo.data.author}</p>
+
+	<hr />
+
+	<Content />
+</BlogPost>
