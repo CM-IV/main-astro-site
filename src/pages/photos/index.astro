@@ -24,17 +24,15 @@ const orderedPhotos: CollectionEntry<'photos'>[] = photos.sort((a, b) => new Dat
 				I use my own custom software to optimize the photo size down to ~5MB and convert to webp format.
 			</p>
 			<section>
-				<ul>
-					{
-						orderedPhotos.map((photo) => (
-                            <article>
-                                <a href={`/photos/${photo.slug}/`}>
-                                    <img src={photo.data.img} width={860} height={392} alt="photography img">    
-                                </a>
-                            </article>
-						))
-					}
-				</ul>
+				{
+					orderedPhotos.map((photo) => (
+						<article>
+							<a href={`/photos/${photo.slug}/`}>
+								<img src={photo.data.img} width={860} height={392} alt="photography img">    
+							</a>
+						</article>
+					))
+				}
 			</section>
 		</main>
 		<Footer />
