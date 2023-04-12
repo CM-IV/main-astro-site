@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^0.18.2",
+    "@astrojs/mdx": "^0.18.4",
     "@astrojs/rss": "^2.3.2",
     "@astrojs/sitemap": "^1.2.2",
-    "astro": "^2.2.0",
+    "astro": "^2.2.3",
     "rehype-katex": "6.0.2",
     "remark-math": "5.1.1"
   }
