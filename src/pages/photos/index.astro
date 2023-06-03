@@ -27,10 +27,9 @@ const orderedPhotos: CollectionEntry<'photos'>[] = photos.sort((a, b) => new Dat
 							<a href={`/photos/${photo.slug}/`}>
 								<img src={photo.data.img} width={860} height={392} alt="photography img">  
 							</a>
-							<h3>{photo.data.title}</h3>
 							<i class="fa fa-camera" aria-hidden="true"></i>
 							Nikon D7000
-							<br>
+							<h3>{photo.data.title}</h3>
 							<a href={`/photos/${photo.slug}/`}>
 								<button type="button">View Gallery</button>
 							</a>
