@@ -4,16 +4,24 @@ import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
+import Paginator from "@components/paginator.astro";
 
-// Filter blog entries with 'draft: false' & date before current date
-const publishedBlogEntries = await getCollection("blog", ({ data }) => {
-  return !data.draft && data.publishDate < new Date();
-});
 
-// Sort content entries by publication date
-publishedBlogEntries.sort(function (a, b) {
-  return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-});
+export async function getStaticPaths({ paginate }: any) {
+  // Filter blog entries with 'draft: false' & date before current date
+  const publishedBlogEntries = await getCollection("blog", ({ data }) => {
+    return !data.draft && data.publishDate < new Date();
+  });
+
+  // Sort content entries by publication date
+  publishedBlogEntries.sort(function (a, b) {
+    return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+  });
+
+  return paginate(publishedBlogEntries, { pageSize: 5 });
+}
+
+const { page } = Astro.props;
 ---
 
 <Layout title="Blog">
@@ -27,7 +35,7 @@ publishedBlogEntries.sort(function (a, b) {
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
-          publishedBlogEntries.map((blogPostEntry, index) => (
+          page.data.map((blogPostEntry, index) => (
             <li>
               <a href={`/blog/${blogPostEntry.slug}`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
@@ -71,6 +79,7 @@ publishedBlogEntries.sort(function (a, b) {
           ))
         }
       </ul>
+      <Paginator page={page} />
     </main>
   </Container>
 </Layout>

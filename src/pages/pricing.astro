@@ -2,7 +2,7 @@
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Pricing from "@components/pricing.astro";
+import Prices from "@components/prices.astro";
 
 const pricing = [
   {
@@ -23,7 +23,7 @@ const pricing = [
     },
   },
   {
-    name: "Startup",
+    name: "Pro",
     price: {
       monthly: "$19",
       annual: "$16",
@@ -69,12 +69,12 @@ const pricing = [
     <Sectionhead>
       <Fragment slot="title">Pricing</Fragment>
       <Fragment slot="desc"
-        >Simple & Predictable pricing. No Surprises.</Fragment
+        >Simple One-time Payment. No Surprises.</Fragment
       >
     </Sectionhead>
 
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
-      {pricing.map((item) => <Pricing plan={item} />)}
+      {pricing.map((item) => <Prices plan={item} />)}
     </div>
   </Container>
 </Layout>
