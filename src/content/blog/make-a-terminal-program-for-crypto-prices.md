@@ -3,7 +3,7 @@ draft: false
 title: "A crypto price fetcher in the terminal with Rust"
 snippet: "A demonstration of Rust's serde crate"
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/Monero_-MUpsURqgkn.webp?updatedAt=1637523223793",
     alt: "full stack web development"
 }
 publishDate: "2023-03-09 11:39"

@@ -4,7 +4,7 @@ title: "Self-hosted Server Monitoring with Glances"
 snippet: "Use the provided docker-compose configuration file in order to
   setup monitoring for your homelab server"
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/Glances_11C2N31f8.webp?updatedAt=1665079251247",
     alt: "full stack web development"
 }
 publishDate: "2022-10-06 11:39"

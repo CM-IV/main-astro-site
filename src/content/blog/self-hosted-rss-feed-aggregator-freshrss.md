@@ -4,7 +4,7 @@ title: "Self-hosted RSS feed aggregator FreshRSS"
 snippet: "Self host your own RSS feed aggregator to pool from the sources of
   information that you prefer"
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/rust_LPgHm4Gho.webp?updatedAt=1679671463190",
     alt: "full stack web development"
 }
 publishDate: "2022-11-22 11:39"

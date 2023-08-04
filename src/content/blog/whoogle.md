@@ -3,7 +3,7 @@ draft: false
 title: "Ditch big tech  browsers, self-host Whoogle instead!"
 snippet: "Whoogle is a browser that you can spin up in a docker container to run from your own on-prem hardware."
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/screen1_Rh72vadpii.webp?updatedAt=1651842962323",
     alt: "full stack web development"
 }
 publishDate: "2022-05-05 11:39"

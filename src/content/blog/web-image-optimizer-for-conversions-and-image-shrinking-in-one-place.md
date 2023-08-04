@@ -8,7 +8,7 @@ snippet: "Use Web Image Optimizer to convert your jpg/png images to WebP or shri
 
   Web Image Optimizer is an ElectronJS desktop app that does its image processing calculations with NodeJS in the backend of the app, effectively keeping good security practices in mind."
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/hashnode-gate_OQ4pis-ar.webp?updatedAt=1679671463222",
     alt: "full stack web development"
 }
 publishDate: "2022-08-05 11:39"

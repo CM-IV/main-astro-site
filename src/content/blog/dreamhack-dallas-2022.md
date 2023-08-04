@@ -3,7 +3,7 @@ draft: false
 title: "DreamHack Dallas 2022"
 snippet: "Insight into my experience at DreamHack 2022 in Dallas, Texas."
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/IMG_20220604_170521-min_VUskFPBk3z.webp?updatedAt=1655666394900",
     alt: "full stack web development"
 }
 publishDate: "2022-06-19 11:39"

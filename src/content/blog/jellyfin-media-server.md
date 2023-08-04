@@ -3,7 +3,7 @@ draft: false
 title: "Learn how to self-host a media center with Jellyfin."
 snippet: "Use Jellyfin to serve your media, essentially creating your own cloud."
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/jellyphoto_xYsVvBvpC.webp?updatedAt=1639177501919",
     alt: "full stack web development"
 }
 publishDate: "2021-12-10 11:39"

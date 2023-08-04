@@ -3,7 +3,7 @@ draft: false
 title: "Locally host your own code repositories with lightweight Gitea"
 snippet: "Gitea is a tiny alternative to GitHub written in Go, I'll show you how to use it."
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/gitea_59262IRyj.webp?updatedAt=1652312437020",
     alt: "full stack web development"
 }
 publishDate: "2022-05-11 11:39"

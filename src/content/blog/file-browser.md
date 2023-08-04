@@ -3,7 +3,7 @@ draft: false
 title: "Self hosting a file browser and manager."
 snippet: "Use File-Browser software to self host and manage files on headless Linux servers.  Follow the link in the title to learn more."
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/file-browser__79QD3AQm.jpeg?updatedAt=1638798962479",
     alt: "full stack web development"
 }
 publishDate: "2021-12-06 11:39"

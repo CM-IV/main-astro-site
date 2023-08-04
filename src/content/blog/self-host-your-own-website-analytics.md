@@ -4,7 +4,7 @@ title: "Self Host Your Own Website Analytics with Umami"
 snippet: "A simple JavaScript tracker used to keep up with the
   number of clicks for each link on the website"
 image: {
-    src: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?&fit=crop&w=430&h=240",
+    src: "https://ik.imagekit.io/xbkhabiqcy9/img/umami2_IAg3WhLUA.webp?updatedAt=1667840164653",
     alt: "full stack web development"
 }
 publishDate: "2022-11-07 11:39"
