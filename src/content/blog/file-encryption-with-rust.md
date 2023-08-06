@@ -40,15 +40,15 @@ The `age` crate is the star of the show, it's how we'll actually encrypt the fil
 
 I'll be encrypting an image of a zucchini plant today, here's what that looks like before:
 
-<img class="image" alt="dreamhack-image-1" src="https://ik.imagekit.io/xbkhabiqcy9/img/zucchini_6UZPzngqm.png?updatedAt=1691321878052" width={860} height={392} alt="photo 1" />
+<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/zucchini_6UZPzngqm.png?updatedAt=1691321878052" width={860} height={392} alt="photo 1" />
 
 The `encrypt_file()` function that does the heavy lifting takes in a `age::x25519::Recipient` public key in order to encrypt the file buffer.  The private key `age::x25519::Identity` that was used to generate that public key can be later used to decrypt the file in a `decrypt_file()` function.  Once the program is run by using `cargo run`, we get the following output in the terminal:
 
-<img class="image" alt="dreamhack-image-1" src="https://ik.imagekit.io/xbkhabiqcy9/img/file_enc2_IwlA0OYd7.png?updatedAt=1691321877511" width={860} height={392} alt="photo 2" />
+<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/file_enc2_IwlA0OYd7.png?updatedAt=1691321877511" width={860} height={392} alt="photo 2" />
 
 Here's what the encrypted result looks like afterwards, unreadable data basically:
 
-<img class="image" alt="dreamhack-image-1" src="https://ik.imagekit.io/xbkhabiqcy9/img/file_enc3_Qca0g578m.png?updatedAt=1691321956668" width={860} height={392} alt="photo 3" />
+<img class="image" src="https://ik.imagekit.io/xbkhabiqcy9/img/file_enc3_Qca0g578m.png?updatedAt=1691321956668" width={860} height={392} alt="photo 3" />
 
 The encrypted file, as per the [specification](https://github.com/C2SP/C2SP/blob/main/age.md), is composed of two parts - a header with the file key and the encrypted binary payload.  You can store this file on your cloud storage or wherever you backup your data for safe keeping, whoever has access to the private `x25519` key that we generate within the `main()` function can decrypt the file.
 
