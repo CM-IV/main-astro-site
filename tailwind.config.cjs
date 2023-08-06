@@ -10,6 +10,9 @@ module.exports = {
             code: {
               color: 'hsl(var(--er))'
             },
+            a: {
+              color: 'rgb(96 165 250)'
+            },
           },
         },
       },
