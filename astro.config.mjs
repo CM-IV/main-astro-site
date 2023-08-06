@@ -6,8 +6,12 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  experimental: {
-    viewTransitions: true
+  markdown: {
+    shikiConfig: {
+      theme: 'dracula',
+      // Enable word wrap to prevent horizontal scrolling
+      wrap: true,
+    },
   },
   site: "https://home.civdev.xyz",
   integrations: [

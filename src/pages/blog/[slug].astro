@@ -41,7 +41,7 @@ const { Content } = await entry.render();
         <div class="w-full md:w-auto flex flex-wrap gap-3">
           {
             entry.data.tags.map((tag) => (
-              <span class="text-sm text-gray-500">#{tag}</span>
+              <span class="text-sm">#{tag}</span>
             ))
           }
         </div>
@@ -54,7 +54,7 @@ const { Content } = await entry.render();
     <div class="text-center mt-8">
       <a
         href="/blog"
-        class="bg-gray-100 px-5 py-3 rounded-md hover:bg-gray-200 transition"
+        class="btn btn-active"
         >← Back to Blog</a
       >
     </div>
