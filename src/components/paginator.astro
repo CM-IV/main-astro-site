@@ -5,31 +5,39 @@ const { page } = Astro.props;
 <div class="flex gap-x-4 pt-6 pl-6">
     {page.url.prev ? (
         <!-- Previous Button -->
-        <a href={page.url.prev} class="btn">
-            Newer Posts
-        </a>
+        <button type="button" class="btn">
+            <a href={page.url.prev}>
+                Newer Posts
+            </a>
+        </button>
     ) : (
         <!-- Previous Button -->
-        <a href={page.url.prev} onclick="return false;" class="disabled:opacity-75 not-allowed btn">
-            Newer Posts
-        </a>
+        <button type="button" class="btn cursor-not-allowed not-allowed opacity-25">
+            <a href={page.url.prev}>
+                Newer Posts
+            </a>    
+        </button>
     )}
   
     {page.url.next ? (
         <!-- Next Button -->
-        <a href={page.url.next} class="btn">
-            Older Posts
-        </a>
+        <button type="button" class="btn">
+            <a href={page.url.next}>
+                Older Posts
+            </a>    
+        </button>
     ) : (
         <!-- Previous Button -->
-        <a href={page.url.next} onclick="return false;" class="disabled:opacity-75 not-allowed btn">
-            Older Posts
-        </a>
+        <button type="button" class="btn cursor-not-allowed not-allowed opacity-25">
+            <a href={page.url.next}>
+                Older Posts
+            </a>
+        </button>
     )}
 </div>
 
 <style>
-    .not-allowed{
+    .not-allowed {
         cursor: not-allowed !important;  
     }
 </style>

@@ -26,6 +26,6 @@ module.exports = {
     require("daisyui")
   ],
   daisyui: {
-    themes: ["winter", "business"],
+    themes: ["corporate", "business"],
   },
 };
