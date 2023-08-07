@@ -68,6 +68,8 @@ fn encrypt_file(public_key: Recipient) {
             "{}",
             "\nThe file either does not exist or this isn't a file\n".red()
         );
+
+        return;
     }
 
     println!("{}", "Encrypting...".yellow());
