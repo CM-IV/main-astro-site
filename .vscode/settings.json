@@ -1,3 +1,5 @@
 {
-    "frontMatter.framework.startCommand": "pnpm run dev"
+    "frontMatter.framework.startCommand": "pnpm run dev",
+    "[markdown]": {
+    }
 }
