@@ -1,0 +1,3 @@
+{
+    "frontMatter.framework.startCommand": "pnpm run dev"
+}
