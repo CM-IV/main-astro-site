@@ -12,7 +12,7 @@ const { page } = Astro.props;
         </button>
     ) : (
         <!-- Previous Button -->
-        <button type="button" class="btn cursor-not-allowed not-allowed opacity-25">
+        <button type="button" class="btn not-allowed opacity-25">
             <a href={page.url.prev}>
                 Newer Posts
             </a>    
@@ -28,7 +28,7 @@ const { page } = Astro.props;
         </button>
     ) : (
         <!-- Previous Button -->
-        <button type="button" class="btn cursor-not-allowed not-allowed opacity-25">
+        <button type="button" class="btn not-allowed opacity-25">
             <a href={page.url.next}>
                 Older Posts
             </a>
@@ -38,6 +38,6 @@ const { page } = Astro.props;
 
 <style>
     .not-allowed {
-        cursor: not-allowed !important;  
+        pointer-events: none;
     }
 </style>
