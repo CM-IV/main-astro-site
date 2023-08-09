@@ -8,7 +8,8 @@ module.exports = {
         DEFAULT: {
           css: {
             code: {
-              color: 'hsl(var(--er))'
+              color: 'hsl(var(--er))',
+              'overflow-wrap': 'break-word'
             },
             a: {
               color: 'rgb(96 165 250)'

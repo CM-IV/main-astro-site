@@ -85,15 +85,16 @@
   "frontMatter.framework.id": "astro",
   "frontMatter.content.publicFolder": "public",
   "frontMatter.preview.host": "http://localhost:3000/blog",
-  "frontMatter.content.supportedFileTypes": [ 
-    "md", 
-    "markdown", 
-    "mdx" 
+  "frontMatter.content.supportedFileTypes": [
+    "md",
+    "markdown",
+    "mdx"
   ],
   "frontMatter.content.pageFolders": [
     {
       "title": "blog",
       "path": "[[workspace]]/src/content/blog"
     }
-  ]
+  ],
+  "frontMatter.framework.startCommand": "pnpm run dev"
 }
