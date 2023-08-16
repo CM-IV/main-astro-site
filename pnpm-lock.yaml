@@ -1,31 +1,27 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@astrojs/image':
     specifier: ^0.17.3
-    version: 0.17.3(astro@2.10.7)(sharp@0.32.4)
+    version: 0.17.3(astro@2.10.9)(sharp@0.32.5)
   '@astrojs/mdx':
     specifier: ^0.19.7
-    version: 0.19.7(astro@2.10.7)
+    version: 0.19.7(astro@2.10.9)
   '@astrojs/rss':
     specifier: ^2.4.4
     version: 2.4.4
   '@astrojs/sitemap':
-    specifier: ^2.0.1
-    version: 2.0.1
+    specifier: ^2.0.2
+    version: 2.0.2
   '@astrojs/tailwind':
     specifier: ^4.0.0
-    version: 4.0.0(astro@2.10.7)(tailwindcss@3.3.3)
+    version: 4.0.0(astro@2.10.9)(tailwindcss@3.3.3)
   '@fontsource-variable/inter':
     specifier: ^5.0.8
     version: 5.0.8
   astro:
-    specifier: ^2.10.7
-    version: 2.10.7(sharp@0.32.4)
+    specifier: ^2.10.9
+    version: 2.10.9(sharp@0.32.5)
   astro-icon:
     specifier: ^0.8.1
     version: 0.8.1
@@ -33,8 +29,8 @@ dependencies:
     specifier: ^0.7.5
     version: 0.7.5
   sharp:
-    specifier: ^0.32.4
-    version: 0.32.4
+    specifier: ^0.32.5
+    version: 0.32.5
 
 devDependencies:
   '@tailwindcss/typography':
@@ -69,7 +65,7 @@ packages:
     resolution: {integrity: sha512-C28qplQzgIJ+JU9S+1wNx+ue2KCBUp0TTAd10EWAEkk4RsL3Tzlw0BYvLDDb4KP9jS48lXmR4/1TtZ4aavYJ8Q==}
     dev: false
 
-  /@astrojs/image@0.17.3(astro@2.10.7)(sharp@0.32.4):
+  /@astrojs/image@0.17.3(astro@2.10.9)(sharp@0.32.5):
     resolution: {integrity: sha512-5xF4d4dmyjSdEeA0E2M8YS5Usf0SxPHUp4w/xAsbArQP27p6BcA+952Ay8+UJfRdT+9dUGGvRafDtjEZOkefxQ==}
     peerDependencies:
       astro: ^2.10.0
@@ -79,13 +75,13 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.10.7(sharp@0.32.4)
+      astro: 2.10.9(sharp@0.32.5)
       http-cache-semantics: 4.1.1
       image-size: 1.0.2
       kleur: 4.1.5
       magic-string: 0.30.2
       mime: 3.0.0
-      sharp: 0.32.4
+      sharp: 0.32.5
     dev: false
 
   /@astrojs/internal-helpers@0.1.2:
@@ -111,13 +107,13 @@ packages:
       vscode-uri: 3.0.7
     dev: false
 
-  /@astrojs/markdown-remark@2.2.1(astro@2.10.7):
+  /@astrojs/markdown-remark@2.2.1(astro@2.10.9):
     resolution: {integrity: sha512-VF0HRv4GpC1XEMLnsKf6jth7JSmlt9qpqP0josQgA2eSpCIAC/Et+y94mgdBIZVBYH/yFnMoIxgKVe93xfO2GA==}
     peerDependencies:
       astro: ^2.5.0
     dependencies:
       '@astrojs/prism': 2.1.2
-      astro: 2.10.7(sharp@0.32.4)
+      astro: 2.10.9(sharp@0.32.5)
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.2
       rehype-raw: 6.1.1
@@ -134,11 +130,11 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@0.19.7(astro@2.10.7):
+  /@astrojs/mdx@0.19.7(astro@2.10.9):
     resolution: {integrity: sha512-mfEbBD7oi8yBHhcJucEjnrquREkJ3os+jioURP8BR2B8tOV2rV2j8trvmLUgfS+P/+HevGObxCTjcRYxn6T7eg==}
     engines: {node: '>=16.12.0'}
     dependencies:
-      '@astrojs/markdown-remark': 2.2.1(astro@2.10.7)
+      '@astrojs/markdown-remark': 2.2.1(astro@2.10.9)
       '@astrojs/prism': 2.1.2
       '@mdx-js/mdx': 2.3.0
       acorn: 8.10.0
@@ -175,20 +171,20 @@ packages:
       kleur: 4.1.5
     dev: false
 
-  /@astrojs/sitemap@2.0.1:
-    resolution: {integrity: sha512-unoaSEyHuR8IApsPN467SD5FMm4PBnaQSHbtvt4dVS3PMDObZV5/lKIbjlfSad7ENzuvpBSLCGyLDOykXUNu6w==}
+  /@astrojs/sitemap@2.0.2:
+    resolution: {integrity: sha512-dFWtdFwN8kxDiqIxF8T8ODqsUr6hG+EQlFEqm+3oQkhAkucF9QkYLM5Q72mEbYytkL4jvKyHbW1u10T5sWBZew==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.21.4
     dev: false
 
-  /@astrojs/tailwind@4.0.0(astro@2.10.7)(tailwindcss@3.3.3):
+  /@astrojs/tailwind@4.0.0(astro@2.10.9)(tailwindcss@3.3.3):
     resolution: {integrity: sha512-HmCAXFFes7MUBt5ihdfH1goa8QyGkHejIpz6Z4XBKK9VNYY9G2E3brCn8+pNn5zAOzcwl3FYcuH2AiOa/NGoMQ==}
     peerDependencies:
       astro: ^2.6.5
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 2.10.7(sharp@0.32.4)
+      astro: 2.10.9(sharp@0.32.5)
       autoprefixer: 10.4.14(postcss@8.4.27)
       postcss: 8.4.27
       postcss-load-config: 4.0.1(postcss@8.4.27)
@@ -1185,8 +1181,8 @@ packages:
     resolution: {integrity: sha512-bo5PiB4Y30PP9QS6OnYcVOr1fKDE52mvJys/3HgeiM2h+/hS7jESUHZMx6VX7yRid1yMGHsp2OyVTA9DrdPyPg==}
     dev: false
 
-  /astro@2.10.7(sharp@0.32.4):
-    resolution: {integrity: sha512-R8aF4yphrsbhxW2UxHZ1DslBn8e8vPQ23+Z/OnajNE1Q4HEZCOZ4CAbHJx2PDwq2p+CRWArNalpr3+rTqyOYBQ==}
+  /astro@2.10.9(sharp@0.32.5):
+    resolution: {integrity: sha512-rtm/RHeJdAIAsziQaAGvbv2ALylNNOF1SUQ0zJaugu/ABUU62tNGNSxIR0LO5l4+dHhLbzRNo5uEnIPkmSRw+w==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     peerDependencies:
@@ -1198,7 +1194,7 @@ packages:
       '@astrojs/compiler': 1.8.1
       '@astrojs/internal-helpers': 0.1.2
       '@astrojs/language-server': 1.0.8
-      '@astrojs/markdown-remark': 2.2.1(astro@2.10.7)
+      '@astrojs/markdown-remark': 2.2.1(astro@2.10.9)
       '@astrojs/telemetry': 2.1.1
       '@astrojs/webapi': 2.2.0
       '@babel/core': 7.22.9
@@ -1217,7 +1213,6 @@ packages:
       common-ancestor-path: 1.0.1
       cookie: 0.5.0
       debug: 4.3.4
-      deepmerge-ts: 4.3.0
       devalue: 4.3.2
       diff: 5.1.0
       es-module-lexer: 1.3.0
@@ -1241,7 +1236,7 @@ packages:
       rehype: 12.0.1
       semver: 7.5.4
       server-destroy: 1.0.1
-      sharp: 0.32.4
+      sharp: 0.32.5
       shiki: 0.14.3
       string-width: 5.1.2
       strip-ansi: 7.1.0
@@ -1663,11 +1658,6 @@ packages:
   /deep-extend@0.6.0:
     resolution: {integrity: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==}
     engines: {node: '>=4.0.0'}
-    dev: false
-
-  /deepmerge-ts@4.3.0:
-    resolution: {integrity: sha512-if3ZYdkD2dClhnXR5reKtG98cwyaRT1NeugQoAPTTfsOpV9kqyeiBF9Qa5RHjemb3KzD5ulqygv6ED3t5j9eJw==}
-    engines: {node: '>=12.4.0'}
     dev: false
 
   /default-browser-id@3.0.0:
@@ -3868,8 +3858,8 @@ packages:
     resolution: {integrity: sha512-rb+9B5YBIEzYcD6x2VKidaa+cqYBJQKnU4oe4E3ANwRRN56yk/ua1YCJT1n21NTS8w6CcOclAKNP3PhdCXKYtQ==}
     dev: false
 
-  /sharp@0.32.4:
-    resolution: {integrity: sha512-exUnZewqVZC6UXqXuQ8fyJJv0M968feBi04jb9GcUHrWtkRoAKnbJt8IfwT4NJs7FskArbJ14JAFGVuooszoGg==}
+  /sharp@0.32.5:
+    resolution: {integrity: sha512-0dap3iysgDkNaPOaOL4X/0akdu0ma62GcdC2NBQ+93eqpePdDdr2/LM0sFdDSMmN7yS+odyZtPsb7tx/cYBKnQ==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
@@ -4607,3 +4597,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

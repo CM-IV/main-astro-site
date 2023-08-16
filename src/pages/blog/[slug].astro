@@ -15,25 +15,29 @@ export async function getStaticPaths() {
 // Get the entry directly from the prop on render
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+// console.log(entry)
 ---
 
 <Layout title={entry.data.title}>
   <Container>
     <div class="mx-auto max-w-3xl mt-14">
-      <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+      <span transition:animate="slide" class="text-blue-400 uppercase tracking-wider text-sm font-medium">
         {entry.data.category}
       </span>
       <h1
+        transition:name={`title-${entry.slug}`}
         class="text-4xl lg:text-5xl font-bold lg:tracking-tight mt-1 lg:leading-tight">
         {entry.data.title}
       </h1>
       <div class="flex gap-2 mt-3 items-center flex-wrap md:flex-nowrap">
-        <span class="text-gray-400">
+        <span transition:animate="slide" class="text-gray-400">
           {entry.data.author}
         </span>
         <span class="text-gray-400">•</span>
         <time
           class="text-gray-400"
+          transition:animate="slide"
           datetime={entry.data.publishDate.toISOString()}>
           {entry.data.publishDate.toDateString()}
         </time>
