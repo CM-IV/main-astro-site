@@ -24,7 +24,7 @@ const makeTitle = title
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="business">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -49,24 +49,11 @@ const makeTitle = title
         },
       }}
     />
-    <script is:inline>
-      // ☝️ This script prevent the FART effect.
-      if (localStorage.getItem("theme") === null) {
-        document.documentElement.setAttribute("data-theme", "corporate");
-      } else
-        document.documentElement.setAttribute(
-          "data-theme",
-          localStorage.getItem("theme")
-        );
-      // "theme" LocalStorage value is set by the package to remember user preference.
-      // The value is checked and applyed before rendering anything.
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
     <ViewTransitions />
   </head>
   <body>
     <Navbar />
-    <slot/>
+      <slot/>
     <br/>
     <Footer />
     <style is:global>
