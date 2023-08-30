@@ -6,9 +6,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  experimental: {
-    viewTransitions: true
-  },
   markdown: {
     shikiConfig: {
       theme: 'dracula',
