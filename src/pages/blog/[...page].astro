@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
@@ -39,7 +38,7 @@ const { page } = Astro.props;
             <li>
               <a href={`/blog/${blogPostEntry.slug}`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
-                  <Picture
+                  <img
                     src={blogPostEntry.data.image.src}
                     alt={blogPostEntry.data.image.alt}
                     sizes="(max-width: 800px) 100vw, 800px"
