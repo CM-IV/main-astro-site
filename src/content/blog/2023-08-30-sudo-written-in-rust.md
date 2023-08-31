@@ -3,7 +3,7 @@ draft: false
 title: Sudo, but with Rust
 snippet: A short blog post showing how to use the Rust re-implementation of Sudo
 image:
-  src: https://ik.imagekit.io/xbkhabiqcy9/img/sudo_DWOzbrJFc.png?updatedAt=1693437487251
+  src: https://ik.imagekit.io/xbkhabiqcy9/img/sudo_AWbrYB_Tq.png?updatedAt=1693440366734
   alt: screenshot of sudo terminal command
 publishDate: 08/30/2023, 6:18 PM
 category: Tutorials
