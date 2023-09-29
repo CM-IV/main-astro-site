@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+
+<div class="md:flex md:justify-center">
+  <main class="p-6 pt-10 max-w-[900px]">
+      
+    <p class="my-10 mx-auto text-center md:px-20">
+    If you find my projects useful or want to buy me a coffee, send XMR.
+    </p>
+
+      <div class="gap-6 flex-col flex">
+        <a href="/xmr.png" target="_blank" class="btn btn-outline w-full md:w-96 gap-2 flex justify-between m-auto">
+        <img src="https://cryptologos.cc/logos/monero-xmr-logo.svg?v=024" class="w-9 h-9">
+        <div>Monero</div>
+        <div class="w-9 h-9"></div>
+        </a>
+      </div>
+    </main>
+  </div>
+</BaseLayout>

@@ -1,51 +1,42 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
+import ProjectCard from "../components/ProjectCard.astro";
 ---
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">My Projects</div>
   </div>
 
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
-
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+  <ProjectCard
+    title="crypto_rs"
+    img="/odg.png"
+    desc="GNU/Linux file encryption software written in Rust with the age encryption format."
+    url="https://github.com/CM-IV/crypto_rs"
     badge="FOSS"
   />
   <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+  <ProjectCard
+    title="bun-crypto"
+    img="/odg.png"
+    desc="A file encryption library for Nodejs/Bun using Rust and Napi-rs."
+    url="https://github.com/CM-IV/bun-crypto"
+    badge="FOSS"
   />
   <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+  <ProjectCard
+    title="CMIV-CLI"
+    img="/odg.png"
+    desc="A command line interface which generates frontend frameworks."
+    url="https://github.com/CM-IV/cmiv-CLI"
+    badge="FOSS"
+  />
+  <div class="divider my-0"></div>
+  <ProjectCard
+    title="Gossip Gobbler"
+    img="/odg.png"
+    desc="A data scraper web application with integrated drive storage, RBAC, and CSV exports."
+    url="https://gg.civdev.xyz"
+    badge="FOSS"
   />
 </BaseLayout>
