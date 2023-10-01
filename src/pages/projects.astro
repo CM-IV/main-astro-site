@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCard from "../components/ProjectCard.astro";
+import localImg from "../img/odg.png";
 ---
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
@@ -10,7 +11,7 @@ import ProjectCard from "../components/ProjectCard.astro";
 
   <ProjectCard
     title="crypto_rs"
-    img="/odg.png"
+    img={localImg}
     desc="GNU/Linux file encryption software written in Rust with the age encryption format."
     url="https://github.com/CM-IV/crypto_rs"
     badge="FOSS"
@@ -18,7 +19,7 @@ import ProjectCard from "../components/ProjectCard.astro";
   <div class="divider my-0"></div>
   <ProjectCard
     title="bun-crypto"
-    img="/odg.png"
+    img={localImg}
     desc="A file encryption library for Nodejs/Bun using Rust and Napi-rs."
     url="https://github.com/CM-IV/bun-crypto"
     badge="FOSS"
@@ -26,7 +27,7 @@ import ProjectCard from "../components/ProjectCard.astro";
   <div class="divider my-0"></div>
   <ProjectCard
     title="CMIV-CLI"
-    img="/odg.png"
+    img={localImg}
     desc="A command line interface which generates frontend frameworks."
     url="https://github.com/CM-IV/cmiv-CLI"
     badge="FOSS"
@@ -34,7 +35,7 @@ import ProjectCard from "../components/ProjectCard.astro";
   <div class="divider my-0"></div>
   <ProjectCard
     title="Gossip Gobbler"
-    img="/odg.png"
+    img={localImg}
     desc="A data scraper web application with integrated drive storage, RBAC, and CSV exports."
     url="https://gg.civdev.xyz"
     badge="FOSS"
