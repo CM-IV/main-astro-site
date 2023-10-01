@@ -1,16 +1,18 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import localGif from "../img/donate.gif"
 ---
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
 
 <div class="md:flex md:justify-center">
   <main class="p-6 pt-10 max-w-[900px]">
-      
+    <Image src={localGif} alt={"Donate gif"} />
+    <br>
     <p class="my-10 mx-auto text-center md:px-20">
-    If you find my projects useful or want to buy me a coffee, send XMR.
+    <b>If you find my projects useful or want to buy me a coffee, send XMR.</b>
     </p>
-
       <div class="gap-6 flex-col flex">
         <a href="/xmr.png" target="_blank" class="btn btn-outline w-full md:w-96 gap-2 flex justify-between m-auto">
         <img src="https://cryptologos.cc/logos/monero-xmr-logo.svg?v=024" class="w-9 h-9">
