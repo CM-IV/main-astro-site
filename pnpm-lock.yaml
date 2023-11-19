@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^0.5.10
     version: 0.5.10(tailwindcss@3.3.5)
   daisyui:
-    specifier: ^4.1.0
-    version: 4.1.0(postcss@8.4.31)
+    specifier: ^4.4.2
+    version: 4.4.2(postcss@8.4.31)
   tailwindcss:
     specifier: ^3.3.5
     version: 3.3.5
@@ -1402,8 +1402,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /daisyui@4.1.0(postcss@8.4.31):
-    resolution: {integrity: sha512-/ri4CaoqCXw/YugpfZTzq1FZART+f6IWwlYlgx9XG4wCXOQ74kayIM16WQsTxKP+aIp8ZmzBasb96YOlNCVYGQ==}
+  /daisyui@4.4.2(postcss@8.4.31):
+    resolution: {integrity: sha512-Ecg5loskj9dkaAnTSK5Xn5jb24TqDlQIg/NJ025jCkw2S/zw12btjvLgY2Sv5Ws1DFVoVBRs3XYXyojZG7zVnw==}
     engines: {node: '>=16.9.0'}
     dependencies:
       css-selector-tokenizer: 0.8.0
