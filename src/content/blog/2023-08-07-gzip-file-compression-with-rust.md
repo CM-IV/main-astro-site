@@ -14,6 +14,7 @@ tags:
   - how-to
 slug: gzip-file-compression-rust
 ---
+
 Let's assume you want to quickly compress multiple documents or files in one place on Linux. To accomplish this, utilize the `tar` crate to generate a tarball archive on the local file system. Subsequently, employ the `gzip` backend for compression, achieving a well-balanced combination of speed and reduced storage space for the final output. This example employs the `flate2` crate, specifically utilizing `write::GzEncoder`, to craft the gzip archive.
 
 For obtaining a `Vec<PathBuf>`—a vector containing file paths for the files intended for compression—you can make use of the `fltk` crate alongside the `dialog::NativeFileChooserType::BrowseMultiFile` file picker. The `fltk` crate functions as a lightweight GUI library, which I personally prefer for my projects due to its simplicity and powerful capabilities. It proves to be both easy to setup and work with, offering a wide range of builtin components for use. In this process, I will also incorporate familiar crates I've previously utilized: `camino` and `dirs` for handling file system directories and transforming them into UTF-8 compatible `PathBuf`s. Once the files are traversed and formed into a tarball, the resulting tarball data (a byte vector) is then employed alongside the aforementioned `GzEncoder` to generate a compressed `gzip` tarball.
@@ -71,4 +72,4 @@ fn main() {
 }
 ```
 
-There is only one single button shown when the program is running that prompts the user to select a file (or multiple files) to compress via the set callback function within the code.  This is where the meat of the application resides, as the application comes to life once that button is pressed.
+There is only one single button shown when the program is running that prompts the user to select a file (or multiple files) to compress via the set callback function within the code. This is where the meat of the application resides, as the application comes to life once that button is pressed.

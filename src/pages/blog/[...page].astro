@@ -6,7 +6,6 @@ import Sectionhead from "@components/sectionhead.astro";
 import Paginator from "@components/paginator.astro";
 import { Image } from "astro:assets";
 
-
 export async function getStaticPaths({ paginate }: any) {
   // Filter blog entries with 'draft: false' & date before current date
   const publishedBlogEntries = await getCollection("blog", ({ data }) => {
@@ -47,11 +46,15 @@ const { page } = Astro.props;
                     class="w-full rounded-md"
                   />
                   <div>
-                    <span transition:animate="slide" class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                    <span
+                      transition:animate="slide"
+                      class="text-blue-400 uppercase tracking-wider text-sm font-medium">
                       {blogPostEntry.data.category}
                     </span>
 
-                    <h2 transition:name={`title-${blogPostEntry.slug}`} class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
+                    <h2
+                      transition:name={`title-${blogPostEntry.slug}`}
+                      class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
                       {blogPostEntry.data.title}
                     </h2>
 

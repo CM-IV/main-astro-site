@@ -6,14 +6,11 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   markdown: {
     shikiConfig: {
-      theme: 'dracula',
+      theme: "dracula",
       // Enable word wrap to prevent horizontal scrolling
       wrap: true,
     },
   },
   site: "https://home.civdev.xyz",
-  integrations: [
-    tailwind(),
-    sitemap(),
-  ],
+  integrations: [tailwind(), sitemap()],
 });

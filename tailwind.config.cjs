@@ -8,11 +8,11 @@ module.exports = {
         DEFAULT: {
           css: {
             code: {
-              color: 'hsl(var(--er))',
-              'overflow-wrap': 'break-word'
+              color: "hsl(var(--er))",
+              "overflow-wrap": "break-word",
             },
             a: {
-              color: 'rgb(96 165 250)'
+              color: "rgb(96 165 250)",
             },
           },
         },
@@ -22,10 +22,7 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    require("daisyui")
-  ],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
     themes: ["business"],
   },
