@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   markdown: {
     shikiConfig: {
-      theme: "dracula",
+      theme: "one-dark-pro",
       // Enable word wrap to prevent horizontal scrolling
       wrap: true,
     },
