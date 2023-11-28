@@ -4,6 +4,9 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  image: {
+    domains: ["ik.imagekit.io"],
+  },
   markdown: {
     shikiConfig: {
       theme: "one-dark-pro",
