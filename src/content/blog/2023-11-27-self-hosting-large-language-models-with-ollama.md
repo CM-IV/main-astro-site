@@ -15,7 +15,7 @@ tags:
   - AI
 ---
 
-__The following article will show how to start with local AI models deployed on Docker with the computer you have at home.  There will be a second part to this in another post showcasing a simple Linux terminal client making inferences to the AI model.__
+__The following article shows how to use Docker for local AI model deployment.  You can find the second article [here](/blog/2023-12-01-create-your-own-ai-helper-with-javascript) where I implement the client to interact with the AI.__
 
 In the world of Artificial Intelligence, large language models have become increasingly popular in recent years. These powerful algorithms can understand and generate human-like text with remarkable accuracy, making them ideal for tasks such as translation, summarization, and question answering. However, due to their size and complexity, these models are often hosted on cloud computing services like Google Cloud Platform or Amazon Web Services, which can be expensive and time-consuming to set up.
 
