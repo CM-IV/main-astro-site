@@ -5,7 +5,7 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Paginator from "@components/paginator.astro";
 import { Image } from "astro:assets";
-import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
+import type { InferGetStaticPropsType, GetStaticPaths } from "astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
   // Filter blog entries with 'draft: false' & date before current date
@@ -19,9 +19,9 @@ export const getStaticPaths = (async ({ paginate }) => {
   });
 
   return paginate(publishedBlogEntries, { pageSize: 5 });
-}) satisfies GetStaticPaths
+}) satisfies GetStaticPaths;
 
-type Props = InferGetStaticPropsType<typeof getStaticPaths>
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 const { page } = Astro.props;
 ---
