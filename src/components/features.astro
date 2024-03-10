@@ -1,24 +1,21 @@
 ---
-import { Icon } from "astro-icon";
+import { Tick } from "./ui/icons";
 
 const features = [
   {
     title: "Tailored Solutions for Your Unique Needs",
     description:
       "Whether you need a robust e-commerce platform, a stunning website design, or a powerful business application, we have the skills and expertise to deliver outstanding results that exceed your expectations.",
-    icon: "bx:bxs-briefcase",
   },
   {
     title: "Cutting-Edge Technologies, Future-Proof Solutions",
     description:
       "Stay ahead of the competition with our cutting-edge technologies and future-proof solutions. As software engineers and web developers, we continuously keep ourselves updated with the latest industry trends and tools.",
-    icon: "bx:bxs-window-alt",
   },
   {
     title: "Agile Development, Timely Delivery",
     description:
       "Time is of the essence, and we understand that. Our agile development approach ensures that we deliver your projects on time, without compromising on quality.",
-    icon: "bx:bxs-fast-forward-circle",
   },
 ];
 ---
@@ -39,7 +36,7 @@ const features = [
     features.map((item) => (
       <div class="flex gap-4 items-start">
         <div class="mt-1 bg-black rounded-full p-2 w-8 h-8 shrink-0">
-          <Icon class="text-white" name={item.icon} />
+          <Tick  />
         </div>
         <div>
           <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
